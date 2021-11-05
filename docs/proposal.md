@@ -23,20 +23,29 @@ If the project is successful, what difference will it make, both technically and
 
 ## 5. Challenges
 
-1. The main challenge is the lack of proper support on a software that can simulate a physics based robotics environment and the wireless network between robots.
 What are the challenges and risks?
+1. The main challenge is the lack of proper software support that can simulate both a physics based robotics environment and the wireless network between robots simultaneously.
 
 ## 6. Requirements for Success
 
 What skills and resources are necessary to perform the project?
+1. Understanding of different wireless technologies like WiFi, BLE, Zigbee
+2. Software that can simulate both physical robots and their wireless communication over network
+3. C/C++/Python programming
+4. Basics of simulation software
 
 ## 7. Metrics of Success
 
 What are metrics by which you would check for success?
+1. Whether we are able to simulate all the different cases of control distribution between 2 robots
+2. How different is the network parameters such as latency/packet loss etc in each of the different technologies like WiFi, BLE and Zigbee
+3. An understanding of the ideal assumptions taken by the simulator and hence how would the simulated values of network parameters differ from real world scenario
+
 
 ## 8. Execution Plan
 
 Describe the key tasks in executing your project, and in case of team project describe how will you partition the tasks.
+Once we are able to setup a simulator, each of us can take a different wireless techology and simulate that scenario and get the network parameters in that case. That would be either WiFi, BLE or Zigbee. We can also partition our tasks in a way that each of us would simulate a different case of control distribution between the 2 robots. Basically, In each case, a different amount of navigation information about the building is sent to the robot keeing privacy and security in mind. As of now, we have 2 different such cases. 
 
 ## 9. Related Work
 
