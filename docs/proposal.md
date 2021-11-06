@@ -77,12 +77,13 @@ We currently do not forsee requiring a dataset for this project.
 We are analyzing the following software packages:
 
 1. ROS-NetSim
-2. Network Simulators
+2. RoboNetSim
+3. Network Simulators
    1. NS-3
    2. ReNode
    3. MiniNet
-3. Robotics Simulators
-   1. Player/Stage/Gazebo
+4. Robotics Simulators
+   1. Gazebo
    2. Pybullet
    3. Mujoco
 
@@ -102,24 +103,66 @@ Key Papers :
 
 Simulation software:
 
+[1] Link: https://www.sciencedirect.com/science/article/pii/S0921889013000080;
+Michal Kudelski, Luca M. Gambardella, Gianni A. Di Caro, RoboNetSim: An integrated framework for multi-robot and network simulation, Robotics and Autonomous Systems, Volume 61, Issue 5, 2013, Pages 483-496, ISSN 0921-8890, https://doi.org/10.1016/j.robot.2013.01.003.
+
+
+[2] Link: https://ieeexplore.ieee.org/document/9345354;
+M. Calvo-Fullana, D. Mox, A. Pyattaev, J. Fink, V. Kumar and A. Ribeiro, "ROS-NetSim: A Framework for the Integration of Robotic and Network Simulators," in IEEE Robotics and Automation Letters, vol. 6, no. 2, pp. 1120-1127, April 2021, doi: 10.1109/LRA.2021.3056347.
+
 [1] Gazebo
 Link: https://ieeexplore.ieee.org/document/1389727; N. Koenig and A. Howard, "Design and use paradigms for Gazebo, an open-source multi-robot simulator," 2004 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (IEEE Cat. No.04CH37566), 2004, pp. 2149-2154 vol.3, doi: 10.1109/IROS.2004.1389727.
 
 [2] Mujoco
 Link: https://ieeexplore.ieee.org/document/6386109; E. Todorov, T. Erez and Y. Tassa, "MuJoCo: A physics engine for model-based control," 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems, 2012, pp. 5026-5033, doi: 10.1109/IROS.2012.6386109.
 
-[3] Link: https://www.sciencedirect.com/science/article/pii/S0921889013000080;
+1. ROS-NetSim
+
+Link: https://ieeexplore.ieee.org/document/9345354;
+M. Calvo-Fullana, D. Mox, A. Pyattaev, J. Fink, V. Kumar and A. Ribeiro, "ROS-NetSim: A Framework for the Integration of Robotic and Network Simulators," in IEEE Robotics and Automation Letters, vol. 6, no. 2, pp. 1120-1127, April 2021, doi: 10.1109/LRA.2021.3056347.
+
+2. RoboNetSim
+
+Website: http://www.giannidicaro.com/robonetsim.html
+Link: https://www.sciencedirect.com/science/article/pii/S0921889013000080;
 Michal Kudelski, Luca M. Gambardella, Gianni A. Di Caro, RoboNetSim: An integrated framework for multi-robot and network simulation, Robotics and Autonomous Systems, Volume 61, Issue 5, 2013, Pages 483-496, ISSN 0921-8890, https://doi.org/10.1016/j.robot.2013.01.003.
 
-[4] Link: https://ieeexplore.ieee.org/abstract/document/5683583?casa_token=5qNZosNeVGEAAAAA:LTGnxDdHa5u8tOtmcSWOOACJfDqJYyxv3ZE-H2C6jRepGTj5RCgPIb5QIS0B0AF63WNY3Q2D_A;
-Z. Zhang, Z. Lu, Q. Chen, X. Yan and L. Zheng, "COSMO: CO-Simulation with MATLAB and OMNeT++ for Indoor Wireless Networks," 2010 IEEE Global Telecommunications Conference GLOBECOM 2010, 2010, pp. 1-6, doi: 10.1109/GLOCOM.2010.5683583.
+3. Network Simulators
+   
+3.1 NS-3
 
-[5] Link: https://www.sciencedirect.com/science/article/pii/S0967066113001925;
-Weilin Li, Xiaobin Zhang, Huimin Li, Co-simulation platforms for co-design of networked control systems: An overview, Control Engineering Practice, Volume 23, 2014, Pages 44-56, ISSN 0967-0661, https://doi.org/10.1016/j.conengprac.2013.10.010.
+Website: https://www.nsnam.org/
+GitHub: https://www.nsnam.org/
 
-[6] Link: https://ieeexplore.ieee.org/abstract/document/9073162/authors#authors;
-I. Afanasyev et al., "Towards the Internet of Robotic Things: Analysis, Architecture, Components and Challenges," 2019 12th International Conference on Developments in eSystems Engineering (DeSE), 2019, pp. 3-8, doi: 10.1109/DeSE.2019.00011.
+3.2 ReNode
 
-[7] Link: https://ieeexplore.ieee.org/document/9345354;
-M. Calvo-Fullana, D. Mox, A. Pyattaev, J. Fink, V. Kumar and A. Ribeiro, "ROS-NetSim: A Framework for the Integration of Robotic and Network Simulators," in IEEE Robotics and Automation Letters, vol. 6, no. 2, pp. 1120-1127, April 2021, doi: 10.1109/LRA.2021.3056347.
+Website: https://renode.io/
+GitHub: https://github.com/renode/renode
+
+3.3 MiniNet
+
+Website: http://mininet.org/
+GitHub: https://github.com/mininet/mininet
+Link: https://ieeexplore.ieee.org/document/6860404
+R. L. S. de Oliveira, C. M. Schweitzer, A. A. Shinoda and Ligia Rodrigues Prete, "Using Mininet for emulation and prototyping Software-Defined Networks," 2014 IEEE Colombian Conference on Communications and Computing (COLCOM), 2014, pp. 1-6, doi: 10.1109/ColComCon.2014.6860404.
+
+4. Robotics Simulators
+
+4.1 Gazebo
+
+Website: http://gazebosim.org/
+GitHub: https://github.com/osrf/gazebo
+Link: https://ieeexplore.ieee.org/document/1389727; N. Koenig and A. Howard, "Design and use paradigms for Gazebo, an open-source multi-robot simulator," 2004 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (IEEE Cat. No.04CH37566), 2004, pp. 2149-2154 vol.3, doi: 10.1109/IROS.2004.1389727.
+
+4.2 Pybullet
+
+website: https://pybullet.org/wordpress/
+GitHub: https://github.com/bulletphysics/bullet3
+
+4.3 Mujoco
+
+Website: https://mujoco.org/
+GitHub: https://github.com/openai/mujoco-py
+Link: https://ieeexplore.ieee.org/document/6386109; E. Todorov, T. Erez and Y. Tassa, "MuJoCo: A physics engine for model-based control," 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems, 2012, pp. 5026-5033, doi: 10.1109/IROS.2012.6386109.
+
 
