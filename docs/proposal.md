@@ -44,9 +44,13 @@ We have outlined the key challenges to be as follows:
 ## 8. Execution Plan
 
 Step 1: Currently, both team members are working to analyze different simulation environments and whether they appropriately fit the project’s requirements.
+
 Step 2: The simulation task will be divided into two parts. One team member will work on the network simulator and the other on the robotic simulator. 
+
 Step 3: Once both the simulators are set up, we will work together to integrate the two interfaces.
+
 Step 4: The two scenarios mentioned in the problem statement will be realized, either one by each member or both together. The division of this task depends on the integration and stability of the simulation environment.
+
 Step 5: Finally, we will analyze the results from each scenario. Here, we can each take up different tasks of data processing and parallelize the analysis. 
 
 ## 9. Related Work
