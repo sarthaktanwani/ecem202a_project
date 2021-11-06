@@ -102,6 +102,12 @@ Key Papers :
 
 Simulation software:
 
+[1] Gazebo
+Link: https://ieeexplore.ieee.org/document/1389727; N. Koenig and A. Howard, "Design and use paradigms for Gazebo, an open-source multi-robot simulator," 2004 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (IEEE Cat. No.04CH37566), 2004, pp. 2149-2154 vol.3, doi: 10.1109/IROS.2004.1389727.
+
+[2] Mujoco
+Link: https://ieeexplore.ieee.org/document/6386109; E. Todorov, T. Erez and Y. Tassa, "MuJoCo: A physics engine for model-based control," 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems, 2012, pp. 5026-5033, doi: 10.1109/IROS.2012.6386109.
+
 [3] Link: https://www.sciencedirect.com/science/article/pii/S0921889013000080;
 Michal Kudelski, Luca M. Gambardella, Gianni A. Di Caro, RoboNetSim: An integrated framework for multi-robot and network simulation, Robotics and Autonomous Systems, Volume 61, Issue 5, 2013, Pages 483-496, ISSN 0921-8890, https://doi.org/10.1016/j.robot.2013.01.003.
 
