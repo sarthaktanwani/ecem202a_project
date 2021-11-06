@@ -57,16 +57,28 @@ Step 5: Finally, we will analyze the results from each scenario. Here, we can ea
 
 ### 9.a. Papers
 
-List the key papers that you have identified relating to your project idea, and describe how they related to your project. Provide references (with full citation in the References section below).
+[1] Control as a service (CaaS): cloud-based software architecture for automotive control applications
+[2] 
 
 ### 9.b. Datasets
 
-List datasets that you have identified and plan to use. Provide references (with full citation in the References section below).
+We currently do not forsee requiring a dataset for this project.
 
 ### 9.c. Software
 
-List softwate that you have identified and plan to use. Provide references (with full citation in the References section below).
+We are analyzing the following software packages:
+
+1. ROS-NetSim
+2. Network Simulators
+   1. NS-3
+   2. ReNode
+   3. MiniNet
+3. Robotics Simulators
+   1. Player/Stage/Gazebo
+   2. Pybullet
+   3. Mujoco
 
 ## 10. References
 
-List references correspondign to citations in your text above. For papers please include full citation and URL. For datasets and software include name and URL.
+[1] https://dl.acm.org/doi/10.1145/2756755.2756758; H. Esen, M. Adachi, D. Bernardini, A. Bemporad, D. Rost and J. Knodel, "Control as a service (CaaS): Cloud-based software architecture for automotive control applications", Proc. 2nd Int. Workshop Swarm at Edge Cloud, pp. 13-18, Apr. 2015
+[2] 
