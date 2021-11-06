@@ -1,12 +1,13 @@
 # Abstract
 
-Provide a brief overview of the project objhectives, approach, and results.
+Can you tell me where to go? - Distribution of low-level control in the face of wireless network dynamics 
+
+
 
 # Team
 
-* Name of team member \#1 
-* Name of team member \#2 (delete this if necessary)
-* Name of team member \#3 (delete this if necessary)
+* Pragya Sharma
+* Sarthak Tanwani
 
 # Required Submissions
 
