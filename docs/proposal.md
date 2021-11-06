@@ -57,8 +57,12 @@ Step 5: Finally, we will analyze the results from each scenario. Here, we can ea
 
 ### 9.a. Papers
 
-[1] Control as a service (CaaS): cloud-based software architecture for automotive control applications
-[2] 
+The rationale behind identifying the following as key papers was to either understand the recent work in networked control systems or to identify the gaps in current systems (from which we eventually dervice our project's problem statement):
+
+[1] Control as a service (CaaS): cloud-based software architecture for automotive control applications -  This paper offers a cloud-based throttle profile controller for a vehicle as a PoC. They find that network variation indeed play a significant role in their system which they wish to explore as future work.
+
+[2] Networked Control Systems: Estimation and Control over Lossy Networks - Even though this paper talks about networked control system and network dynamics in particular, it only focuses on one component of the network (packet losses) and over-simplifies the rest of the modeling.
+
 
 ### 9.b. Datasets
 
@@ -81,6 +85,7 @@ We are analyzing the following software packages:
 ## 10. References
 
 [1] https://dl.acm.org/doi/10.1145/2756755.2756758; H. Esen, M. Adachi, D. Bernardini, A. Bemporad, D. Rost and J. Knodel, "Control as a service (CaaS): Cloud-based software architecture for automotive control applications", Proc. 2nd Int. Workshop Swarm at Edge Cloud, pp. 13-18, Apr. 2015
+
 [2] 
 
 2. Link: https://www.sciencedirect.com/science/article/pii/S0921889013000080
