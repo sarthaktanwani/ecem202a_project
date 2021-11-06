@@ -57,11 +57,13 @@ Step 5: Finally, we will analyze the results from each scenario. Here, we can ea
 
 ### 9.a. Papers
 
-The rationale behind identifying the following as key papers was to either understand the recent work in networked control systems or to identify the gaps in current systems (from which we eventually dervice our project's problem statement):
+The rationale behind identifying the following as key papers was to either understand the recent work in networked control systems or to identify the gaps in current systems (from which we eventually device our project's problem statement):
 
 [1] Control as a service (CaaS): cloud-based software architecture for automotive control applications -  This paper offers a cloud-based throttle profile controller for a vehicle as a PoC. They find that network variation indeed play a significant role in their system which they wish to explore as future work.
 
 [2] Networked Control Systems: Estimation and Control over Lossy Networks - Even though this paper talks about networked control system and network dynamics in particular, it only focuses on one component of the network (packet losses) and over-simplifies the rest of the modeling.
+
+[3] 
 
 
 ### 9.b. Datasets
@@ -88,19 +90,17 @@ We are analyzing the following software packages:
 
 [2] 
 
-2. Link: https://www.sciencedirect.com/science/article/pii/S0921889013000080
+[3] Link: https://www.sciencedirect.com/science/article/pii/S0921889013000080
 Michal Kudelski, Luca M. Gambardella, Gianni A. Di Caro, RoboNetSim: An integrated framework for multi-robot and network simulation, Robotics and Autonomous Systems, Volume 61, Issue 5, 2013, Pages 483-496, ISSN 0921-8890, https://doi.org/10.1016/j.robot.2013.01.003.
 
-3. Link: https://ieeexplore.ieee.org/abstract/document/5683583?casa_token=5qNZosNeVGEAAAAA:LTGnxDdHa5u8tOtmcSWOOACJfDqJYyxv3ZE-H2C6jRepGTj5RCgPIb5QIS0B0AF63WNY3Q2D_A
+[4] Link: https://ieeexplore.ieee.org/abstract/document/5683583?casa_token=5qNZosNeVGEAAAAA:LTGnxDdHa5u8tOtmcSWOOACJfDqJYyxv3ZE-H2C6jRepGTj5RCgPIb5QIS0B0AF63WNY3Q2D_A
 Z. Zhang, Z. Lu, Q. Chen, X. Yan and L. Zheng, "COSMO: CO-Simulation with MATLAB and OMNeT++ for Indoor Wireless Networks," 2010 IEEE Global Telecommunications Conference GLOBECOM 2010, 2010, pp. 1-6, doi: 10.1109/GLOCOM.2010.5683583.
 
-4. Link: https://www.sciencedirect.com/science/article/pii/S0967066113001925
+[5] Link: https://www.sciencedirect.com/science/article/pii/S0967066113001925
 Weilin Li, Xiaobin Zhang, Huimin Li, Co-simulation platforms for co-design of networked control systems: An overview, Control Engineering Practice, Volume 23, 2014, Pages 44-56, ISSN 0967-0661, https://doi.org/10.1016/j.conengprac.2013.10.010.
 
-5. Link: https://ieeexplore.ieee.org/abstract/document/9073162/authors#authors
+[6] Link: https://ieeexplore.ieee.org/abstract/document/9073162/authors#authors
 I. Afanasyev et al., "Towards the Internet of Robotic Things: Analysis, Architecture, Components and Challenges," 2019 12th International Conference on Developments in eSystems Engineering (DeSE), 2019, pp. 3-8, doi: 10.1109/DeSE.2019.00011.
 
-6. Link: https://ieeexplore.ieee.org/document/9345354
+[7] Link: https://ieeexplore.ieee.org/document/9345354
 M. Calvo-Fullana, D. Mox, A. Pyattaev, J. Fink, V. Kumar and A. Ribeiro, "ROS-NetSim: A Framework for the Integration of Robotic and Network Simulators," in IEEE Robotics and Automation Letters, vol. 6, no. 2, pp. 1120-1127, April 2021, doi: 10.1109/LRA.2021.3056347.
-
-
