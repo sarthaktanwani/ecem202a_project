@@ -99,16 +99,7 @@ Key Papers :
 
 [4] https://www.proquest.com/docview/1288377691?fromopenview=true&pq-origsite=gscholar&accountid=14512; Pajic M. Closing the loop: Architectures and algorithms for real-time control over wireless networks. University of Pennsylvania; 2012.
 
-[3] RoboNetSim: An integrated framework for multi-robot and network simulation, Robotics and Autonomous Systems - This 
-
 Simulation software:
-
-[1] Link: https://www.sciencedirect.com/science/article/pii/S0921889013000080;
-Michal Kudelski, Luca M. Gambardella, Gianni A. Di Caro, RoboNetSim: An integrated framework for multi-robot and network simulation, Robotics and Autonomous Systems, Volume 61, Issue 5, 2013, Pages 483-496, ISSN 0921-8890, https://doi.org/10.1016/j.robot.2013.01.003.
-
-
-[2] Link: https://ieeexplore.ieee.org/document/9345354;
-M. Calvo-Fullana, D. Mox, A. Pyattaev, J. Fink, V. Kumar and A. Ribeiro, "ROS-NetSim: A Framework for the Integration of Robotic and Network Simulators," in IEEE Robotics and Automation Letters, vol. 6, no. 2, pp. 1120-1127, April 2021, doi: 10.1109/LRA.2021.3056347.
 
 [1] Gazebo
 Link: https://ieeexplore.ieee.org/document/1389727; N. Koenig and A. Howard, "Design and use paradigms for Gazebo, an open-source multi-robot simulator," 2004 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (IEEE Cat. No.04CH37566), 2004, pp. 2149-2154 vol.3, doi: 10.1109/IROS.2004.1389727.
