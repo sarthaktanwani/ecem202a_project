@@ -57,13 +57,15 @@ Step 5: Finally, we will analyze the results from each scenario. Here, we can ea
 
 ### 9.a. Papers
 
-The rationale behind identifying the following as key papers was to either understand the recent work in networked control systems or to identify the gaps in current systems (from which we eventually device our project's problem statement):
+The rationale behind identifying the following as key papers was to either understand the recent work in networked control systems or to identify the gaps in current systems (from which we eventually dervice our project's problem statement):
 
-[1] Control as a service (CaaS): cloud-based software architecture for automotive control applications -  This paper offers a cloud-based throttle profile controller for a vehicle as a PoC. They find that network variation indeed play a significant role in their system which they wish to explore as future work.
+[1] Exploring Edge Computing for Multitier Industrial Control - This interesting papers leverages edge computing by switching control between local and wireless entities in the face of adverse wireless conditions. 
 
-[2] Networked Control Systems: Estimation and Control over Lossy Networks - Even though this paper talks about networked control system and network dynamics in particular, it only focuses on one component of the network (packet losses) and over-simplifies the rest of the modeling.
+[2] Control as a service (CaaS): cloud-based software architecture for automotive control applications -  This paper offers a cloud-based throttle profile controller for a vehicle as a PoC. They find that network variation indeed play a significant role in their system which they wish to explore as future work.
 
-[3] RoboNetSim: An integrated framework for multi-robot and network simulation, Robotics and Autonomous Systems - This 
+[3] Networked Control Systems: Estimation and Control over Lossy Networks - Even though this paper talks about networked control system and network dynamics in particular, it only focuses on one component of the network (packet losses) and over-simplifies the rest of the modeling.
+
+[4] Closing the loop: Architectures and algorithms for real-time control over wireless networks - The author of thesis explores networked control in industrial and medical settings.
 
 
 ### 9.b. Datasets
@@ -86,9 +88,19 @@ We are analyzing the following software packages:
 
 ## 10. References
 
-[1] https://dl.acm.org/doi/10.1145/2756755.2756758; H. Esen, M. Adachi, D. Bernardini, A. Bemporad, D. Rost and J. Knodel, "Control as a service (CaaS): Cloud-based software architecture for automotive control applications", Proc. 2nd Int. Workshop Swarm at Edge Cloud, pp. 13-18, Apr. 2015
+Key Papers :
 
-[2] 
+[1] https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9211472; Y. Ma, C. Lu, B. Sinopoli and S. Zeng, "Exploring Edge Computing for Multitier Industrial Control," in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, vol. 39, no. 11, pp. 3506-3518, Nov. 2020, doi: 10.1109/TCAD.2020.3012648.
+
+[2] https://dl.acm.org/doi/10.1145/2756755.2756758; H. Esen, M. Adachi, D. Bernardini, A. Bemporad, D. Rost and J. Knodel, "Control as a service (CaaS): Cloud-based software architecture for automotive control applications", Proc. 2nd Int. Workshop Swarm at Edge Cloud, pp. 13-18, Apr. 2015
+
+[3] https://web.ece.ucsb.edu/~hespanha/published/LossyNetworksArticlev3.pdf; J. P. Hespanha and A. R. Mesquita, "Networked Control Systems: Estimation and Control over Lossy Networks", Encyclopedia of Systems and Control, pp. 842-849, 2015. 
+
+[4] https://www.proquest.com/docview/1288377691?fromopenview=true&pq-origsite=gscholar&accountid=14512; Pajic M. Closing the loop: Architectures and algorithms for real-time control over wireless networks. University of Pennsylvania; 2012.
+
+[3] RoboNetSim: An integrated framework for multi-robot and network simulation, Robotics and Autonomous Systems - This 
+
+Simulation software:
 
 [3] Link: https://www.sciencedirect.com/science/article/pii/S0921889013000080;
 Michal Kudelski, Luca M. Gambardella, Gianni A. Di Caro, RoboNetSim: An integrated framework for multi-robot and network simulation, Robotics and Autonomous Systems, Volume 61, Issue 5, 2013, Pages 483-496, ISSN 0921-8890, https://doi.org/10.1016/j.robot.2013.01.003.
@@ -104,3 +116,4 @@ I. Afanasyev et al., "Towards the Internet of Robotic Things: Analysis, Architec
 
 [7] Link: https://ieeexplore.ieee.org/document/9345354;
 M. Calvo-Fullana, D. Mox, A. Pyattaev, J. Fink, V. Kumar and A. Ribeiro, "ROS-NetSim: A Framework for the Integration of Robotic and Network Simulators," in IEEE Robotics and Automation Letters, vol. 6, no. 2, pp. 1120-1127, April 2021, doi: 10.1109/LRA.2021.3056347.
+
