@@ -38,16 +38,16 @@ We have outlined the key challenges to be as follows:
 
 ## 7. Metrics of Success
 
-What are metrics by which you would check for success?
-1. Whether we are able to simulate all the different cases of control distribution between 2 robots
-2. How different is the network parameters such as latency/packet loss etc in each of the different technologies like WiFi, BLE and Zigbee
-3. An understanding of the ideal assumptions taken by the simulator and hence how would the simulated values of network parameters differ from real world scenario
-
+1. Simulation of a tight wireless networked control loop
+2. Analysis of latency characteristics in the two aforementioned scenarios
 
 ## 8. Execution Plan
 
-Describe the key tasks in executing your project, and in case of team project describe how will you partition the tasks.
-Once we are able to setup a simulator, each of us can take a different wireless techology and simulate that scenario and get the network parameters in that case. That would be either WiFi, BLE or Zigbee. We can also partition our tasks in a way that each of us would simulate a different case of control distribution between the 2 robots. Basically, In each case, a different amount of navigation information about the building is sent to the robot keeing privacy and security in mind. As of now, we have 2 different such cases. 
+Step 1: Currently, both team members are working to analyze different simulation environments and whether they appropriately fit the project’s requirements.
+Step 2: The simulation task will be divided into two parts. One team member will work on the network simulator and the other on the robotic simulator. 
+Step 3: Once both the simulators are set up, we will work together to integrate the two interfaces.
+Step 4: The two scenarios mentioned in the problem statement will be realized, either one by each member or both together. The division of this task depends on the integration and stability of the simulation environment.
+Step 5: Finally, we will analyze the results from each scenario. Here, we can each take up different tasks of data processing and parallelize the analysis. 
 
 ## 9. Related Work
 
