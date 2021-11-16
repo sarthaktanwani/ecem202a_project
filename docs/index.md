@@ -11,7 +11,7 @@ Traditionally Wireless Networked Control Systems (WNCSs), such as those in indus
 
 # Required Submissions
 
-* [Proposal](proposal)
+* [Proposal](proposal.md)
 * [Midterm Checkpoint Presentation Slides](http://)
 * [Final Presentation Slides](http://)
-* [Final Report](report)
+* [Final Report](report.md)
