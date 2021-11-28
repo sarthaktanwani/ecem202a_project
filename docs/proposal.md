@@ -57,8 +57,16 @@ Step 5: Finally, we will analyze the results from each scenario. Here, we can ea
 
 ### 9.a. Papers
 
-[1] Control as a service (CaaS): cloud-based software architecture for automotive control applications
-[2] 
+The rationale behind identifying the following as key papers was to either understand the recent work in networked control systems or to identify the gaps in current systems (from which we eventually dervice our project's problem statement):
+
+[1] Exploring Edge Computing for Multitier Industrial Control - This interesting papers leverages edge computing by switching control between local and wireless entities in the face of adverse wireless conditions. 
+
+[2] Control as a service (CaaS): cloud-based software architecture for automotive control applications -  This paper offers a cloud-based throttle profile controller for a vehicle as a PoC. They find that network variation indeed play a significant role in their system which they wish to explore as future work.
+
+[3] Networked Control Systems: Estimation and Control over Lossy Networks - Even though this paper talks about networked control system and network dynamics in particular, it only focuses on one component of the network (packet losses) and over-simplifies the rest of the modeling.
+
+[4] Closing the loop: Architectures and algorithms for real-time control over wireless networks - The author of thesis explores networked control in industrial and medical settings.
+
 
 ### 9.b. Datasets
 
@@ -69,33 +77,83 @@ We currently do not forsee requiring a dataset for this project.
 We are analyzing the following software packages:
 
 1. ROS-NetSim
-2. Network Simulators
+2. RoboNetSim
+3. Network Simulators
    1. NS-3
    2. ReNode
    3. MiniNet
-3. Robotics Simulators
-   1. Player/Stage/Gazebo
+4. Robotics Simulators
+   1. Gazebo
    2. Pybullet
    3. Mujoco
 
 ## 10. References
 
-[1] https://dl.acm.org/doi/10.1145/2756755.2756758; H. Esen, M. Adachi, D. Bernardini, A. Bemporad, D. Rost and J. Knodel, "Control as a service (CaaS): Cloud-based software architecture for automotive control applications", Proc. 2nd Int. Workshop Swarm at Edge Cloud, pp. 13-18, Apr. 2015
-[2] 
+Key Papers :
 
-2. Link: https://www.sciencedirect.com/science/article/pii/S0921889013000080
+[1] https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9211472; Y. Ma, C. Lu, B. Sinopoli and S. Zeng, "Exploring Edge Computing for Multitier Industrial Control," in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, vol. 39, no. 11, pp. 3506-3518, Nov. 2020, doi: 10.1109/TCAD.2020.3012648.
+
+[2] https://dl.acm.org/doi/10.1145/2756755.2756758; H. Esen, M. Adachi, D. Bernardini, A. Bemporad, D. Rost and J. Knodel, "Control as a service (CaaS): Cloud-based software architecture for automotive control applications", Proc. 2nd Int. Workshop Swarm at Edge Cloud, pp. 13-18, Apr. 2015
+
+[3] https://web.ece.ucsb.edu/~hespanha/published/LossyNetworksArticlev3.pdf; J. P. Hespanha and A. R. Mesquita, "Networked Control Systems: Estimation and Control over Lossy Networks", Encyclopedia of Systems and Control, pp. 842-849, 2015. 
+
+[4] https://www.proquest.com/docview/1288377691?fromopenview=true&pq-origsite=gscholar&accountid=14512; Pajic M. Closing the loop: Architectures and algorithms for real-time control over wireless networks. University of Pennsylvania; 2012.
+
+Simulation software:
+
+[1] Gazebo
+Link: https://ieeexplore.ieee.org/document/1389727; N. Koenig and A. Howard, "Design and use paradigms for Gazebo, an open-source multi-robot simulator," 2004 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (IEEE Cat. No.04CH37566), 2004, pp. 2149-2154 vol.3, doi: 10.1109/IROS.2004.1389727.
+
+[2] Mujoco
+Link: https://ieeexplore.ieee.org/document/6386109; E. Todorov, T. Erez and Y. Tassa, "MuJoCo: A physics engine for model-based control," 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems, 2012, pp. 5026-5033, doi: 10.1109/IROS.2012.6386109.
+
+1. ROS-NetSim
+
+Link: https://ieeexplore.ieee.org/document/9345354;
+M. Calvo-Fullana, D. Mox, A. Pyattaev, J. Fink, V. Kumar and A. Ribeiro, "ROS-NetSim: A Framework for the Integration of Robotic and Network Simulators," in IEEE Robotics and Automation Letters, vol. 6, no. 2, pp. 1120-1127, April 2021, doi: 10.1109/LRA.2021.3056347.
+
+2. RoboNetSim
+
+Website: http://www.giannidicaro.com/robonetsim.html
+Link: https://www.sciencedirect.com/science/article/pii/S0921889013000080;
 Michal Kudelski, Luca M. Gambardella, Gianni A. Di Caro, RoboNetSim: An integrated framework for multi-robot and network simulation, Robotics and Autonomous Systems, Volume 61, Issue 5, 2013, Pages 483-496, ISSN 0921-8890, https://doi.org/10.1016/j.robot.2013.01.003.
 
-3. Link: https://ieeexplore.ieee.org/abstract/document/5683583?casa_token=5qNZosNeVGEAAAAA:LTGnxDdHa5u8tOtmcSWOOACJfDqJYyxv3ZE-H2C6jRepGTj5RCgPIb5QIS0B0AF63WNY3Q2D_A
-Z. Zhang, Z. Lu, Q. Chen, X. Yan and L. Zheng, "COSMO: CO-Simulation with MATLAB and OMNeT++ for Indoor Wireless Networks," 2010 IEEE Global Telecommunications Conference GLOBECOM 2010, 2010, pp. 1-6, doi: 10.1109/GLOCOM.2010.5683583.
+3. Network Simulators
+   
+3.1 NS-3
 
-4. Link: https://www.sciencedirect.com/science/article/pii/S0967066113001925
-Weilin Li, Xiaobin Zhang, Huimin Li, Co-simulation platforms for co-design of networked control systems: An overview, Control Engineering Practice, Volume 23, 2014, Pages 44-56, ISSN 0967-0661, https://doi.org/10.1016/j.conengprac.2013.10.010.
+Website: https://www.nsnam.org/
+GitHub: https://www.nsnam.org/
 
-5. Link: https://ieeexplore.ieee.org/abstract/document/9073162/authors#authors
-I. Afanasyev et al., "Towards the Internet of Robotic Things: Analysis, Architecture, Components and Challenges," 2019 12th International Conference on Developments in eSystems Engineering (DeSE), 2019, pp. 3-8, doi: 10.1109/DeSE.2019.00011.
+3.2 ReNode
 
-6. Link: https://ieeexplore.ieee.org/document/9345354
-M. Calvo-Fullana, D. Mox, A. Pyattaev, J. Fink, V. Kumar and A. Ribeiro, "ROS-NetSim: A Framework for the Integration of Robotic and Network Simulators," in IEEE Robotics and Automation Letters, vol. 6, no. 2, pp. 1120-1127, April 2021, doi: 10.1109/LRA.2021.3056347.
+Website: https://renode.io/
+GitHub: https://github.com/renode/renode
+
+3.3 MiniNet
+
+Website: http://mininet.org/
+GitHub: https://github.com/mininet/mininet
+Link: https://ieeexplore.ieee.org/document/6860404
+R. L. S. de Oliveira, C. M. Schweitzer, A. A. Shinoda and Ligia Rodrigues Prete, "Using Mininet for emulation and prototyping Software-Defined Networks," 2014 IEEE Colombian Conference on Communications and Computing (COLCOM), 2014, pp. 1-6, doi: 10.1109/ColComCon.2014.6860404.
+
+4. Robotics Simulators
+
+4.1 Gazebo
+
+Website: http://gazebosim.org/
+GitHub: https://github.com/osrf/gazebo
+Link: https://ieeexplore.ieee.org/document/1389727; N. Koenig and A. Howard, "Design and use paradigms for Gazebo, an open-source multi-robot simulator," 2004 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (IEEE Cat. No.04CH37566), 2004, pp. 2149-2154 vol.3, doi: 10.1109/IROS.2004.1389727.
+
+4.2 Pybullet
+
+website: https://pybullet.org/wordpress/
+GitHub: https://github.com/bulletphysics/bullet3
+
+4.3 Mujoco
+
+Website: https://mujoco.org/
+GitHub: https://github.com/openai/mujoco-py
+Link: https://ieeexplore.ieee.org/document/6386109; E. Todorov, T. Erez and Y. Tassa, "MuJoCo: A physics engine for model-based control," 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems, 2012, pp. 5026-5033, doi: 10.1109/IROS.2012.6386109.
 
 
