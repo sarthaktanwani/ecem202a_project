@@ -19,7 +19,7 @@ for y in np.arange(-7.12,6.88,0.5):
     f.write('\n')
 
 f.write('Second Checkpoint \n')
-for x in np.arange(6.16,-16.24,-0.55):
+for x in np.arange(6.16,-16.24,-0.5):
     f.write(str(x))
     f.write('\n')
 
@@ -32,5 +32,6 @@ f.write('Fourth Checkpoint \n')
 for x in np.arange(-16.24,-5.21,0.5):
     f.write(str(x))
     f.write('\n')
+f.write('end')
 
 f.close()

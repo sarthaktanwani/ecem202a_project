@@ -17,17 +17,24 @@ line_x1=$(grep -n "Start" next_position.txt)
 line_x1=${line_x1//[!0-9]/}
 line_y1=$(grep -n "First Checkpoint" next_position.txt)
 line_y1=${line_y1//[!0-9]/}
-line_x2=$(grep -n "Third Checkpoint" next_position.txt)
+line_x2=$(grep -n "Second Checkpoint" next_position.txt)
 line_x2=${line_x2//[!0-9]/}
-line_y2=$(grep -n "Fourth Checkpoint" next_position.txt)
+line_y2=$(grep -n "Third Checkpoint" next_position.txt)
 line_y2=${line_y2//[!0-9]/}
+line_x3=$(grep -n "Fourth Checkpoint" next_position.txt)
+line_x3=${line_x3//[!0-9]/}
 last_line=$(grep -n "end" next_position.txt)
 last_line=${last_line//[!0-9]/}
+new_position=$(sed "$(($line_x1+1))q;d" next_position.txt)
+sed -i "4s/^.*$/    x: $new_position/" test.yaml
+new_position=$(sed "$(($line_y1+1))q;d" next_position.txt)
+sed -i "5s/^.*$/    y: $new_position/" test.yaml
 
-# echo "linex1 is $line_x1"
-# echo "linex1 is $line_x1"
-# echo "linex1 is $line_x1"
-# echo "linex1 is $line_x1"
+echo "linex1 is $line_x1"
+echo "liney1 is $line_y1"
+echo "linex2 is $line_x2"
+echo "liney2 is $line_y2"
+echo "linex3 is $line_x3"
 
 
 # x=1
@@ -39,11 +46,11 @@ last_line=${last_line//[!0-9]/}
 
 line_number=2
 timestamp=`date +%s`
-printf "GazeboRead,NS3Link1,ReadFile,NS3Link2,GazeboPublish,SumLatency,StepRuntime\n" >> log_$timestamp.csv
+printf "GazeboRead,NS3Link1,ReadFile,NS3Link2,GazeboPublish,SumLatency,StepRuntime\n" >> logs/log_scenario1_$timestamp.csv
 # printf "$host\t$(date)\tTime Taken to checkout\t$Time_checkout\n" >> log.csv
 # printf "$host\t$(date)\tTime Taken to add $loopmax 10MB svn files\t$Time_add\n" >> log.csv
 # printf "$host\t$(date)\tTime Taken to commit $loopmax 10MB svn files\t$Time_commit\n" >> log.csv
-
+#line_number=33
 while [ $line_number -lt $last_line ]
 do
 
@@ -112,26 +119,62 @@ do
   comp_time=$(bc -l <<<"${comp_end}-${comp_start}")
   echo "Comp Latency in ms is $comp_time"
 
-
   gazebo_pub_start=`date +%s.%3N`
-  if [[ $line_number -lt $line_y1 ]]
+
+  # if [[ $line_number -eq $line_y1 ]]
+  # then
+  #   sed -i "8s/^.*$/    x: 1.57/" test.yaml
+  #   rostopic pub -1 /gazebo/set_model_state gazebo_msgs/ModelState -f test.yaml
+
+  # elif [[ $line_number -eq $line_x2 ]]
+  # then
+  #   sed -i "8s/^.*$/    x: 3.1415/" test.yaml
+  #   rostopic pub -1 /gazebo/set_model_state gazebo_msgs/ModelState -f test.yaml
+
+  # elif [[ $line_number -eq $line_y2 ]]
+  # then
+  #   sed -i "8s/^.*$/    x: -1.57/" test.yaml
+  #   rostopic pub -1 /gazebo/set_model_state gazebo_msgs/ModelState -f test.yaml
+
+  # if [[ $line_number -eq $line_x3 ]]
+  # then
+  #   sed -i "8s/^.*$/    x: 0.0/" test.yaml
+  #   rostopic pub -1 /gazebo/set_model_state gazebo_msgs/ModelState -f test.yaml
+
+  if [[ $line_number -eq $line_y1 || $line_number -eq $line_x2 ||  $line_number -eq $liney2 || $line_number -eq $line_x3 || $line_number -eq $last_line ]]
   then
+    line_number=$(( $line_number + 1 ))
+
+
+  elif [[ $line_number -lt $line_y1 ]]
+  then
+    echo "$line_number < $line_y1"
     sed -i "4s/^.*$/    x: $new_position/" test.yaml
     rostopic pub -1 /gazebo/set_model_state gazebo_msgs/ModelState -f test.yaml
 
-  elif [[ $line_number -lt $line_x2 ]]
+  elif [[ $line_number -gt $line_y1 && $line_number -lt $line_x2 ]]
   then
-    sed -i "4s/^.*$/    y: $new_position/" test.yaml
+    echo "$line_y1 > $line_number  > $line_x2"
+    sed -i "5s/^.*$/    y: $new_position/" test.yaml
     rostopic pub -1 /gazebo/set_model_state gazebo_msgs/ModelState -f test.yaml
 
-  elif [[ $line_number -lt $line_y2 ]]
+  elif [[ $line_number -gt $line_x2 && $line_number -lt $line_y2 ]]
   then
+    echo "$line_x2 > $line_number  > $line_y2"
     sed -i "4s/^.*$/    x: $new_position/" test.yaml
     rostopic pub -1 /gazebo/set_model_state gazebo_msgs/ModelState -f test.yaml
 
-  elif [[ $line_number -lt $last_line ]]
+  elif [[ $line_number -gt $line_y2 && $line_number -lt $line_x3 ]]
   then
-    sed -i "4s/^.*$/    y: $new_position/" test.yaml
+    echo "$line_y2 > $line_number  > $line_x3"
+    sed -i "5s/^.*$/    y: $new_position/" test.yaml
+    rostopic pub -1 /gazebo/set_model_state gazebo_msgs/ModelState -f test.yaml
+
+
+  elif [[ $line_number -gt $line_x3 && $line_number -lt $last_line ]]
+  then
+    echo "$line_x3 > $line_number  > $last_line"
+    sed -i "4s/^.*$/    x: $new_position/" test.yaml
     rostopic pub -1 /gazebo/set_model_state gazebo_msgs/ModelState -f test.yaml
   fi
 
@@ -151,42 +194,9 @@ do
   echo "Total step runtime is $step_runtime"
 
 
-printf "${gazebo_read_runtime},${ns3_runtime1},${comp_time},${ns3_runtime2},${gazebo_pub_runtime},$sum_runtime,$step_runtime\n" >> log_$timestamp.csv
+printf "${gazebo_read_runtime},${ns3_runtime1},${comp_time},${ns3_runtime2},${gazebo_pub_runtime},$sum_runtime,$step_runtime\n" >> logs/log_scenario1_$timestamp.csv
 
 done
-
-# values="none"
-# while IFS= read -r line
-# do
-
-  
-
-#   if values="x"
-#   then
-#     x_val=$line
-#     sed -i "4s/^.*$/    x: $x_val/" test.yaml
-#     rostopic pub -1 /gazebo/set_model_state gazebo_msgs/ModelState -f test.yaml
-#   fi
-#   if $line="Start"
-#   then
-#     values="x"
-#   fi
-#   elif $line="First Checkpoint"
-#   then
-#     values="y"
-#   fi
-#   elif $line="Second Checkpoint "
-#   then
-#     values="x"
-#   fi
-
-# done < "$input"
-
-
-
-# x_val=-14.54
-# y_val=0.0
-# z_val=0.0
 
 # sed -i "4s/^.*$/    x: $x_val/" test.yaml
 # sed -i "5s/^.*$/    y: $y_val/" test.yaml
