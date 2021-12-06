@@ -39,7 +39,7 @@ We have outlined the key challenges to be as follows: (1) There hasn’t been mu
 
 -Simulation because hardware prototyping in robotics and control theory is hard
 -Why Gazebo for a robotic simulator?
--Cite robot link and sensors
+-Cite robot link and sensors https://github.com/SMARTlab-Purdue/ros-tutorial-gazebo-simulation/blob/master/README_full.md, https://automaticaddison.com/how-to-simulate-a-robot-using-gazebo-and-ros-2/
 -Why NS3 for a network simulator?
 -Cite communication technology (wifi?)
 -How we combine the two - ROS
