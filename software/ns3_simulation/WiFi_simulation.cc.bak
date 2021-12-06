@@ -24,7 +24,6 @@
 #include "ns3/yans-wifi-helper.h"
 #include "ns3/ssid.h"
 #include "ns3/wifi-mac-header.h"
-#include "fstream"
 
 // Default Network Topology
 //
@@ -93,7 +92,6 @@ main (int argc, char *argv[])
       LogComponentEnable ("UdpEchoServerApplication", LOG_LEVEL_INFO);
     }
 
-  NS_LOG_INFO ("Create nodes.");
   NodeContainer p2pNodes;
   p2pNodes.Create (2);
 
@@ -119,7 +117,6 @@ main (int argc, char *argv[])
   wifiStaNodes.Create (nWifi);
   NodeContainer wifiApNode = p2pNodes.Get (0);
 
-  NS_LOG_INFO ("Create channels.");
   YansWifiChannelHelper channel = YansWifiChannelHelper::Default ();
   YansWifiPhyHelper phy = YansWifiPhyHelper::Default ();
   phy.SetChannel (channel.Create ());
@@ -159,7 +156,6 @@ main (int argc, char *argv[])
   stack.Install (wifiApNode);
   stack.Install (wifiStaNodes);
 
-  NS_LOG_INFO ("Assign IP Addresses.");
   Ipv4AddressHelper address;
 
   address.SetBase ("10.1.1.0", "255.255.255.0");
@@ -175,27 +171,20 @@ main (int argc, char *argv[])
   wifiInterfaces = address.Assign (staDevices);
   address.Assign (apDevices);
 
-  NS_LOG_INFO ("Create Applications.");
   UdpEchoServerHelper echoServer (9);
+
 //  ApplicationContainer serverApps = echoServer.Install (csmaNodes.Get (nCsma));
   ApplicationContainer serverApps = echoServer.Install (wifiStaNodes.Get (0));
   serverApps.Start (Seconds (1.0));
   serverApps.Stop (Seconds (10.0));
 
 //  UdpEchoClientHelper echoClient (csmaInterfaces.GetAddress (nCsma), 9);
-  // UdpEchoClientHelper echoClient (wifiInterfaces.GetAddress(0), 9);
-  // echoClient.SetAttribute ("MaxPackets", UintegerValue (1));
-  // echoClient.SetAttribute ("Interval", TimeValue (Seconds (1.0)));
-  // echoClient.SetAttribute ("PacketSize", UintegerValue (dataLen));
+  UdpEchoClientHelper echoClient (wifiInterfaces.GetAddress(0), 9);
+  echoClient.SetAttribute ("MaxPackets", UintegerValue (1));
+  echoClient.SetAttribute ("Interval", TimeValue (Seconds (1.0)));
+  echoClient.SetAttribute ("PacketSize", UintegerValue (dataLen));
 
-  UdpEchoClientHelper Client (wifiInterfaces.GetAddress(0), 9);
-  Client.SetAttribute ("MaxPackets", UintegerValue (1));
-  Client.SetAttribute ("Interval", TimeValue (Seconds (1.0)));
-  Client.SetAttribute ("PacketSize", UintegerValue (dataLen));
-
-
-//  ApplicationContainer clientApps = echoClient.Install (wifiStaNodes.Get (nWifi - 1));
-  ApplicationContainer clientApps = Client.Install (wifiApNode.Get (0));
+  ApplicationContainer clientApps = echoClient.Install (wifiStaNodes.Get (nWifi - 1));
   clientApps.Start (Seconds (4.0));
   clientApps.Stop (Seconds (10.0));
 
