@@ -10,31 +10,31 @@ cd $NS3_PATH
 export 'NS_LOG=UdpEchoClientApplication=level_all|prefix_func|prefix_time:UdpEchoServerApplication=level_all|prefix_func|prefix_time'
 cd $save_pwd
 
-echo $pwd
+#echo $pwd
 
-input="next_position.txt"
-line_x1=$(grep -n "Start" next_position.txt)
+input="../next_position.txt"
+line_x1=$(grep -n "Start" $input)
 line_x1=${line_x1//[!0-9]/}
-line_y1=$(grep -n "First Checkpoint" next_position.txt)
+line_y1=$(grep -n "First Checkpoint" $input)
 line_y1=${line_y1//[!0-9]/}
-line_x2=$(grep -n "Second Checkpoint" next_position.txt)
+line_x2=$(grep -n "Second Checkpoint" $input)
 line_x2=${line_x2//[!0-9]/}
-line_y2=$(grep -n "Third Checkpoint" next_position.txt)
+line_y2=$(grep -n "Third Checkpoint" $input)
 line_y2=${line_y2//[!0-9]/}
-line_x3=$(grep -n "Fourth Checkpoint" next_position.txt)
+line_x3=$(grep -n "Fourth Checkpoint" $input)
 line_x3=${line_x3//[!0-9]/}
-last_line=$(grep -n "end" next_position.txt)
+last_line=$(grep -n "end" $input)
 last_line=${last_line//[!0-9]/}
-new_position=$(sed "$(($line_x1+1))q;d" next_position.txt)
+new_position=$(sed "$(($line_x1+1))q;d" $input)
 sed -i "4s/^.*$/    x: $new_position/" test.yaml
-new_position=$(sed "$(($line_y1+1))q;d" next_position.txt)
+new_position=$(sed "$(($line_y1+1))q;d" $input)
 sed -i "5s/^.*$/    y: $new_position/" test.yaml
 
-echo "linex1 is $line_x1"
-echo "liney1 is $line_y1"
-echo "linex2 is $line_x2"
-echo "liney2 is $line_y2"
-echo "linex3 is $line_x3"
+#echo "linex1 is $line_x1"
+#echo "liney1 is $line_y1"
+#echo "linex2 is $line_x2"
+#echo "liney2 is $line_y2"
+#echo "linex3 is $line_x3"
 
 
 # x=1
@@ -46,7 +46,7 @@ echo "linex3 is $line_x3"
 
 line_number=2
 timestamp=`date +%s`
-printf "GazeboRead,NS3Link1,ReadFile,NS3Link2,GazeboPublish,SumLatency,StepRuntime\n" >> logs/log_scenario1_$timestamp.csv
+printf "GazeboRead,NS3Link1,ReadFile,NS3Link2,GazeboPublish,E2E_Latency,StepRuntime\n" >> ../../data/logs/wifi/scenario1/log_scenario1_$timestamp.csv
 # printf "$host\t$(date)\tTime Taken to checkout\t$Time_checkout\n" >> log.csv
 # printf "$host\t$(date)\tTime Taken to add $loopmax 10MB svn files\t$Time_add\n" >> log.csv
 # printf "$host\t$(date)\tTime Taken to commit $loopmax 10MB svn files\t$Time_commit\n" >> log.csv
@@ -75,30 +75,57 @@ do
   #simulate one ns3 link
   save_pwd=$(pwd);
   cd $NS3_PATH
-  # export 'NS_LOG=UdpEchoClientApplication=level_all|prefix_func|prefix_time:UdpEchoServerApplication=level_all|prefix_func|prefix_time'
-  $NS3_PATH/waf --run "scratch/WiFi_simulation --nCsma=1 --nWifi=2 --dataLen=2044" > log.out 2>&1
-  s=$(grep -A5 "At time 4s" ./log.out | awk '{print $1;}')
-  #s=${s//[!0-9,.]/}
+  export 'NS_LOG=UdpEchoClientApplication=level_all|prefix_func|prefix_time:UdpEchoServerApplication=level_all|prefix_func|prefix_time'
+  $NS3_PATH/waf --run "scratch/WiFi_simulation --nCsma=1 --nWifi=1 --dataLen=1024 --packets=100" > log.out 2>&1
+  s=$(grep -A1 "ScheduleTransmit" ./log.out | awk '{print $1;}')
+  s=${s//[!0-9,.,+]/}
+
+  i=2
+  ns3_runtime1=0
+  while [ $i -le 201 ]
+  do
+      start=$(cut -d + -f $i <<< $s)
+      end=$(cut -d + -f $((i+1)) <<< $s)
+      runtime=$(bc -l <<<"${end}-${start}")
+      ns3_runtime1=$(bc -l <<<"${ns3_runtime1}+${runtime}")
+      # echo "start in ms is: $start"
+      # echo "end in ms is: $end"
+      # echo "runtime in ms is: $runtime"
+      # echo "Link Latency2 in ms is: $sum"
+      i=$(( $i + 2 ))
+  done
+    ns3_runtime1=$(bc -l <<<"${ns3_runtime1}*1000")
+    echo "Link Latency1 in ms is: $ns3_runtime1"
+
+
+
   #echo "s is $s"
   #echo "start output"
 
-  #echo "The six times are: $s"
-  ns3_start1=$(echo $s | awk '{print $1;}')
-  ns3_start1=${ns3_start1//[!0-9,.]/}
-  #echo "Start time is: $ns3_start1"
-  ns3_stop1=$(echo $s|awk '{print $2;}')
-  ns3_stop1=${ns3_stop1//[!0-9,.]/}
-  #echo "Stop time is: $ns3_stop1"
-  ns3_runtime1=$(bc -l <<<"${ns3_stop1}-${ns3_start1}")
-  #echo "Total time is: $ns3_runtime1"
-  ns3_runtime1=$(bc -l <<<"${ns3_runtime1}*1000")
-  echo "Link Latency1 in ms is: $ns3_runtime1"
+  # #echo "The six times are: $s"
+  # ns3_start1=$(echo $s | awk '{print $1;}')
+  # ns3_start1=${ns3_start1//[!0-9,.]/}
+  # #echo "Start time is: $ns3_start1"
+  # ns3_stop1=$(echo $s|awk '{print $2;}')
+  # ns3_stop1=${ns3_stop1//[!0-9,.]/}
+  # #echo "Stop time is: $ns3_stop1"
+  # ns3_runtime1=$(bc -l <<<"${ns3_stop1}-${ns3_start1}")
+  # #echo "Total time is: $ns3_runtime1"
+  # ns3_runtime1=$(bc -l <<<"${ns3_runtime1}*1000")
+  # echo "Link Latency1 in ms is: $ns3_runtime1"
 
-  ns3_start2=$(echo $s | awk '{print $5;}')
+  $NS3_PATH/waf --run "scratch/WiFi_simulation --nCsma=1 --nWifi=1 --dataLen=1024 --packets=1" > log.out 2>&1
+  s=$(grep -A1 "server sent" ./log.out | awk '{print $1;}')
+  s=${s//[!0-9,.,+]/}
+  #echo $s
+
+  ns3_start2=$(cut -d + -f 2 <<< $s)
   ns3_start2=${ns3_start2//[!0-9,.]/}
+  #echo $ns3_start2
   #echo "Start time is: $ns3_start2"
-  ns3_stop2=$(echo $s|awk '{print $6;}')
+  ns3_stop2=$(cut -d + -f 3 <<< $s)
   ns3_stop2=${ns3_stop2//[!0-9,.]/}
+  #echo $ns3_stop2
   #echo "Stop time is: $ns3_stop2"
   ns3_runtime2=$(bc -l <<<"${ns3_stop2}-${ns3_start2}")
   #echo "Total time is: $ns3_runtime2"
@@ -114,7 +141,7 @@ do
   echo "NS3 app Latency in ms is $ns3_app_runtime"
 
   comp_start=`date +%s.%3N`
-  new_position=$(sed "${line_number}q;d" next_position.txt)
+  new_position=$(sed "${line_number}q;d" $input)
   comp_end=`date +%s.%3N`
   comp_time=$(bc -l <<<"${comp_end}-${comp_start}")
   echo "Comp Latency in ms is $comp_time"
@@ -186,7 +213,7 @@ do
   line_number=$(( $line_number + 1 ))
 
   sum_runtime=$(bc -l <<<"${gazebo_read_runtime}+${ns3_runtime1}+${comp_time}+${ns3_runtime2}+${gazebo_pub_runtime}")
-  echo "Sum runtime is $sum_runtime"
+  echo "E2E Latency is $sum_runtime"
 
   stop_step=`date +%s.%3N`
   step_runtime=$(bc -l <<<"${stop_step}-${start_step}")
@@ -194,7 +221,7 @@ do
   echo "Total step runtime is $step_runtime"
 
 
-printf "${gazebo_read_runtime},${ns3_runtime1},${comp_time},${ns3_runtime2},${gazebo_pub_runtime},$sum_runtime,$step_runtime\n" >> logs/log_scenario1_$timestamp.csv
+printf "${gazebo_read_runtime},${ns3_runtime1},${comp_time},${ns3_runtime2},${gazebo_pub_runtime},$sum_runtime,$step_runtime\n" >> ../../data/logs/wifi/scenario1/log_scenario1_$timestamp.csv
 
 done
 
