@@ -44,17 +44,20 @@ sed -i "5s/^.*$/    y: $new_position/" test.yaml
 #   x=$(( $x + 1 ))
 # done
 
+packets=500
+
+packetSize=2048
 
   save_pwd=$(pwd);
   cd $NS3_PATH
   export 'NS_LOG=UdpEchoClientApplication=level_all|prefix_func|prefix_time:UdpEchoServerApplication=level_all|prefix_func|prefix_time'
-  $NS3_PATH/waf --run "scratch/WiFi_simulation --nCsma=1 --nWifi=1 --dataLen=1024 --packets=1000" > log.out 2>&1
-  s=$(grep -A1 "server sent 1024 bytes to" ./log.out | awk '{print $1;}')
+  $NS3_PATH/waf --run "scratch/WiFi_simulation --nCsma=1 --nWifi=1 --dataLen=$packetSize --packets=$packets" > log.out 2>&1
+  s=$(grep -A1 "server sent $packetSize bytes to" ./log.out | awk '{print $1;}')
   s=${s//[!0-9,.,+]/}
 #  echo $s
   i=2
   sum=0
-  while [ $i -le 1601 ]
+  while [ $i -le $(($packets*2+1)) ]
   do
       start=$(cut -d + -f $i <<< $s)
       end=$(cut -d + -f $((i+1)) <<< $s)

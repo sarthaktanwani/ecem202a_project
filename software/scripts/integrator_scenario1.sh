@@ -59,7 +59,8 @@ do
   # read current_pos
   gazebo_read_start=`date +%s.%3N`
   # start_step=gazebo_read_start;
-  STRING=$(rostopic echo /gazebo/model_states -n1 | grep -A3 -m2 "position" | tail -n3)
+  #STRING=$(rostopic echo /gazebo/model_states -n1 | grep -A3 -m2 "position" | tail -n3)
+  STRING=$(rostopic echo -n1 /scan)
   #STRING="x=45,y=45,z=0"
   len=`expr length "$STRING"`
   gazebo_read_end=`date +%s.%3N`
@@ -72,17 +73,19 @@ do
 
   ns3_app_start=`date +%s.%3N`
 
+  packets=50
+
   #simulate one ns3 link
   save_pwd=$(pwd);
   cd $NS3_PATH
   export 'NS_LOG=UdpEchoClientApplication=level_all|prefix_func|prefix_time:UdpEchoServerApplication=level_all|prefix_func|prefix_time'
-  $NS3_PATH/waf --run "scratch/WiFi_simulation --nCsma=1 --nWifi=1 --dataLen=1024 --packets=100" > log.out 2>&1
+  $NS3_PATH/waf --run "scratch/WiFi_simulation --nCsma=1 --nWifi=1 --dataLen=2048 --packets=$packets" > log.out 2>&1
   s=$(grep -A1 "ScheduleTransmit" ./log.out | awk '{print $1;}')
   s=${s//[!0-9,.,+]/}
 
   i=2
   ns3_runtime1=0
-  while [ $i -le 201 ]
+  while [ $i -le $(($packets*2+1)) ]
   do
       start=$(cut -d + -f $i <<< $s)
       end=$(cut -d + -f $((i+1)) <<< $s)
