@@ -1,1 +1,1 @@
-Waf: Run from a folder containing a 'wscript' file (or try -h for the generic options)
+integrator_scenario1.sh: line 82: /home/sarthak/Software/ns-allinone-3.30.1/ns-3.30.1/waf: No such file or directory

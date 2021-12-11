@@ -1,0 +1,811 @@
++0s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.00184001s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.02s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.02684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.04s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.04559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.06s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.06434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.087s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.08934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.107s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.10809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.133s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.13934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.154s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.15809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.177s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.18309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.206s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.20809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.232s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.23309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.26s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.26434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.283s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.28934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.305s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.30809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.325s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.32684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.35s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.35184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.373s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.37684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.395s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.39559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.418s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.42059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.447s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.45184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.474s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.47684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.501s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.50184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.522s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.52684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.544s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.54559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.572s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.57684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.599s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.60184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.627s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.63309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.647s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.65184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.671s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.67684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.696s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.70184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.724s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.72684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.747s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.75184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.774s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.77684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.797s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.80184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.82s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.82059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.845s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.84559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.869s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.87059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.894s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.89559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.922s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.92684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.942s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.94559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.963s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.96434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++0.987s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++0.98934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.016s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.02059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.04s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.04559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.063s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.06434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.085s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.08934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.113s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.11434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.133s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.13934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.158s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.16434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.182s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.18309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.205s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.20809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.225s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.22684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.251s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.25184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.28s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.28309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.307s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.30809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.334s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.33934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.356s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.35809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.378s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.38309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.404s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.40809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.425s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.42684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.45s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.45184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.47s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.47059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.494s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.49559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.516s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.52059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.544s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.54559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.571s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.57684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.597s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.60184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.622s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.62684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.649s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.65184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.674s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.67684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.703s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.70809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.725s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.72684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.745s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.74559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.773s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.77684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.794s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.79559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.823s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.82684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.852s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.85809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.879s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.88309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.905s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.90809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.925s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.92684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.949s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.95184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.969s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.97059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++1.99s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++1.99559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.018s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.02059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.041s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.04559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.065s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.07059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.093s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.09559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.119s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.12059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.148s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.15184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.171s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.17684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.191s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.19559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.22s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.22059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.241s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.24559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.267s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.27059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.29s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.29559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.314s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.32059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.343s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.34559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.367s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.37059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.395s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.39559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.423s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.42684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.449s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.45184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.469s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.47059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.495s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.49559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.521s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.52684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.545s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.54559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.571s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.57684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.593s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.59559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.621s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.62684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.649s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.65184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.675s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.67684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.697s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.70184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.725s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.72684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.749s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.75184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.771s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.77684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.798s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.80184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.821s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.82684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.842s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.84559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.869s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.87059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.889s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.89559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.914s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.92059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.937s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.93934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.962s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.96434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++2.988s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++2.98934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.008s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.01434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.029s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.03309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.049s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.05184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.074s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.07684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.102s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.10809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.123s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.12684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.146s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.15184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.173s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.17684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.197s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.20184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.218s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.22059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.244s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.24559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.272s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.27684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.298s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.30184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.319s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.32059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.348s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.35184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.373s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.37684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.402s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.40809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.43s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.43309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.45s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.45184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.479s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.48309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.502s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.50809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.526s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.52684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.555s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.55809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.582s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.58309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.604s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.60809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.625s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.62684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.65s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.65184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.675s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.67684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.702s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.70809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.725s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.72684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.746s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.75184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.774s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.77684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.802s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.80809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.822s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.82684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.849s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.85184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.875s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.87684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.897s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.90184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.918s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.92059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.939s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.94559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.968s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.97059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++3.992s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++3.99559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.013s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.01434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.041s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.04559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.061s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.06434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.081s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.08309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.106s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.10809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.132s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.13309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.161s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.16434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.19s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.19559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.212s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.21434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.241s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.24559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.266s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.27059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.29s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.29559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.311s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.31434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.333s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.33934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.362s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.36434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.388s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.38934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.417s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.42059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.446s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.45184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.468s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.47059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.496s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.50184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.522s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.52684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.551s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.55184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.573s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.57684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.598s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.60184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.623s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.62684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.648s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.65184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.674s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.67684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.702s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.70809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.727s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.73309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.748s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.75184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.77s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.77059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.797s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.80184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.821s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.82684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.849s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.85184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.875s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.87684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.897s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.90184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.926s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.92684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.948s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.95184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.977s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++4.98309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++4.998s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.00184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.019s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.02059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.044s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.04559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.07s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.07059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.093s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.09559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.117s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.12059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.144s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.14559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.167s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.17059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.188s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.18934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.212s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.21434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.241s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.24559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.263s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.26434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.286s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.28934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.309s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.31434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.337s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.33934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.365s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.37059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.388s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.38934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.41s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.41434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.439s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.44559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.468s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.47059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.495s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.49559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.518s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.52059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.547s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.55184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.576s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.57684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.598s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.60184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.623s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.62684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.643s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.64559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.663s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.66434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.683s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.68934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.709s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.71434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.731s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.73309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.752s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.75809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.772s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.77684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.796s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.80184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.82s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.82059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.841s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.84559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.863s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.86434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.891s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.89559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.911s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.91434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.936s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.93934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.96s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.96434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++5.984s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++5.98934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.008s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.01434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.029s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.03309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.053s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.05809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.082s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.08309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.11s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.11434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.137s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.13934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.161s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.16434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.183s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.18934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.203s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.20809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.227s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.23309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.252s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.25809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.272s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.27684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.297s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.30184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.318s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.32059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.347s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.35184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.376s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.37684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.397s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.40184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.418s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.42059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.445s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.44559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.469s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.47059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.489s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.49559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.517s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.52059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.543s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.54559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.567s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.57059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.592s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.59559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.62s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.62059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.64s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.64559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.668s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.67059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.696s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.70184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.717s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.72059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.743s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.74559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.764s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.77059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.788s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.78934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.816s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.82059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.837s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.83934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.86s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.86434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.889s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.89559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.912s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.91434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.94s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.94559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.965s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.97059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++6.993s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++6.99559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.02s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.02059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.043s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.04559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.071s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.07684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.091s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.09559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.115s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.12059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.135s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.13934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.162s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.16434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.187s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.18934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.208s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.21434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.231s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.23309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.26s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.26434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.288s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.28934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.313s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.31434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.338s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.33934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.363s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.36434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.386s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.38934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.411s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.41434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.439s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.44559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.468s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.47059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.495s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.49559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.522s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.52684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.545s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.54559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.573s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.57684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.601s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.60184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.628s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.63309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.656s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.65809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.678s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.68309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.704s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.70809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.73s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.73309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.754s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.75809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.78s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.78309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.801s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.80184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.827s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.83309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.856s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.85809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.885s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.88934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.905s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.90809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.929s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.93309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.952s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.95809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++7.974s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++7.97684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.001s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.00184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.028s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.03309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.053s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.05809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.079s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.08309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.104s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.10809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.13s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.13309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.152s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.15809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.172s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.17684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.195s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.19559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.22s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.22059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.241s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.24559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.267s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.27059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.296s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.30184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.323s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.32684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.343s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.34559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.372s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.37684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.399s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.40184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.428s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.43309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.454s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.45809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.475s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.47684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.503s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.50809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.523s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.52684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.548s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.55184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.575s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.57684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.601s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.60184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.626s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.62684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.652s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.65809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.674s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.67684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.703s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.70809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.732s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.73309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.756s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.75809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.781s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.78309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.802s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.80809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.826s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.82684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.853s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.85809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.881s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.88309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.905s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.90809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.929s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.93309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.957s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.95809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++8.983s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++8.98934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.01s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.01434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.034s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.03934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.06s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.06434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.087s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.08934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.114s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.12059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.139s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.14559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.166s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.17059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.195s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.19559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.218s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.22059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.238s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.23934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.263s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.26434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.292s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.29559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.312s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.31434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.334s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.33934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.36s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.36434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.381s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.38309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.402s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.40809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.425s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.42684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.451s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.45184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.475s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.47684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.5s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.50184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.521s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.52684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.547s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.55184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.567s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.57059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.594s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.59559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.616s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.62059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.645s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.64559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.668s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.67059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.693s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.69559s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.72s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.72059s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.748s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.75184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.772s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.77684s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.8s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.80184s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.827s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.83309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.853s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.85809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.877s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.88309s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.906s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.90809s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.935s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.93934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.961s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.96434s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
++9.984s		 Tx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f
++9.98934s	 Rx  	 src 26:3d:ef:59:76:4b	dest d4:bc:82:57:72:4f	tx_dev Samsung, Inc.
+Done
