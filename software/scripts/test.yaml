@@ -1,8 +1,8 @@
 model_name: 'diff_drive'
 pose:
   position:
-    x: -7.34
-    y: 6.38
+    x: -10.06
+    y: -7.12
     z: 0.128750
   orientation:
     x: 0.0

@@ -1,0 +1,915 @@
+Waf: Entering directory `/home/pragyasharma/Software/ns-allinone-3.30.1/ns-3.30.1/build'
+Waf: Leaving directory `/home/pragyasharma/Software/ns-allinone-3.30.1/ns-3.30.1/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (0.688s)
+
+data Length that will be sent would be: 1024
++0.000000000s UdpEchoServerApplication:UdpEchoServer(0x55938a085ee0)
++0.000000000s UdpEchoClientApplication:UdpEchoClient(0x55938a076fc0)
++0.000000000s UdpEchoClientApplication:SetDataSize(0x55938a076fc0, 1024)
++1.000000000s UdpEchoClientApplication:StartApplication(0x55938a076fc0)
++1.000000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +0.0ns)
++1.000000000s UdpEchoServerApplication:StartApplication(0x55938a085ee0)
++1.000000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.000000000s UdpEchoClientApplication:Send(): At time 1s client sent 1024 bytes to 10.1.3.1 port 9
++1.000000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.001927036s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.001927036s UdpEchoServerApplication:HandleRead(): At time 1.00193s server received 1024 bytes from 10.1.3.2 port 49153
++1.001927036s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.001927036s UdpEchoServerApplication:HandleRead(): At time 1.00193s server sent 1024 bytes to 10.1.3.2 port 49153
++1.007150072s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.007150072s UdpEchoClientApplication:HandleRead(): At time 1.00715s client received 1024 bytes from 10.1.3.1 port 9
++1.010000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.010000000s UdpEchoClientApplication:Send(): At time 1.01s client sent 1024 bytes to 10.1.3.1 port 9
++1.010000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.011476012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.011476012s UdpEchoServerApplication:HandleRead(): At time 1.01148s server received 1024 bytes from 10.1.3.2 port 49153
++1.011476012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.011476012s UdpEchoServerApplication:HandleRead(): At time 1.01148s server sent 1024 bytes to 10.1.3.2 port 49153
++1.013055024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.013055024s UdpEchoClientApplication:HandleRead(): At time 1.01306s client received 1024 bytes from 10.1.3.1 port 9
++1.020000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.020000000s UdpEchoClientApplication:Send(): At time 1.02s client sent 1024 bytes to 10.1.3.1 port 9
++1.020000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.021476012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.021476012s UdpEchoServerApplication:HandleRead(): At time 1.02148s server received 1024 bytes from 10.1.3.2 port 49153
++1.021476012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.021476012s UdpEchoServerApplication:HandleRead(): At time 1.02148s server sent 1024 bytes to 10.1.3.2 port 49153
++1.023181024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.023181024s UdpEchoClientApplication:HandleRead(): At time 1.02318s client received 1024 bytes from 10.1.3.1 port 9
++1.030000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.030000000s UdpEchoClientApplication:Send(): At time 1.03s client sent 1024 bytes to 10.1.3.1 port 9
++1.030000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.031476012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.031476012s UdpEchoServerApplication:HandleRead(): At time 1.03148s server received 1024 bytes from 10.1.3.2 port 49153
++1.031476012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.031476012s UdpEchoServerApplication:HandleRead(): At time 1.03148s server sent 1024 bytes to 10.1.3.2 port 49153
++1.033163024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.033163024s UdpEchoClientApplication:HandleRead(): At time 1.03316s client received 1024 bytes from 10.1.3.1 port 9
++1.040000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.040000000s UdpEchoClientApplication:Send(): At time 1.04s client sent 1024 bytes to 10.1.3.1 port 9
++1.040000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.041476012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.041476012s UdpEchoServerApplication:HandleRead(): At time 1.04148s server received 1024 bytes from 10.1.3.2 port 49153
++1.041476012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.041476012s UdpEchoServerApplication:HandleRead(): At time 1.04148s server sent 1024 bytes to 10.1.3.2 port 49153
++1.043073024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.043073024s UdpEchoClientApplication:HandleRead(): At time 1.04307s client received 1024 bytes from 10.1.3.1 port 9
++1.050000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.050000000s UdpEchoClientApplication:Send(): At time 1.05s client sent 1024 bytes to 10.1.3.1 port 9
++1.050000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.051476012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.051476012s UdpEchoServerApplication:HandleRead(): At time 1.05148s server received 1024 bytes from 10.1.3.2 port 49153
++1.051476012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.051476012s UdpEchoServerApplication:HandleRead(): At time 1.05148s server sent 1024 bytes to 10.1.3.2 port 49153
++1.053046024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.053046024s UdpEchoClientApplication:HandleRead(): At time 1.05305s client received 1024 bytes from 10.1.3.1 port 9
++1.060000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.060000000s UdpEchoClientApplication:Send(): At time 1.06s client sent 1024 bytes to 10.1.3.1 port 9
++1.060000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.061476012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.061476012s UdpEchoServerApplication:HandleRead(): At time 1.06148s server received 1024 bytes from 10.1.3.2 port 49153
++1.061476012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.061476012s UdpEchoServerApplication:HandleRead(): At time 1.06148s server sent 1024 bytes to 10.1.3.2 port 49153
++1.063181024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.063181024s UdpEchoClientApplication:HandleRead(): At time 1.06318s client received 1024 bytes from 10.1.3.1 port 9
++1.070000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.070000000s UdpEchoClientApplication:Send(): At time 1.07s client sent 1024 bytes to 10.1.3.1 port 9
++1.070000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.071476012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.071476012s UdpEchoServerApplication:HandleRead(): At time 1.07148s server received 1024 bytes from 10.1.3.2 port 49153
++1.071476012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.071476012s UdpEchoServerApplication:HandleRead(): At time 1.07148s server sent 1024 bytes to 10.1.3.2 port 49153
++1.072562024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.072562024s UdpEchoClientApplication:HandleRead(): At time 1.07256s client received 1024 bytes from 10.1.3.1 port 9
++1.080000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.080000000s UdpEchoClientApplication:Send(): At time 1.08s client sent 1024 bytes to 10.1.3.1 port 9
++1.080000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.080992012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.080992012s UdpEchoServerApplication:HandleRead(): At time 1.08099s server received 1024 bytes from 10.1.3.2 port 49153
++1.080992012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.080992012s UdpEchoServerApplication:HandleRead(): At time 1.08099s server sent 1024 bytes to 10.1.3.2 port 49153
++1.082105024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.082105024s UdpEchoClientApplication:HandleRead(): At time 1.08211s client received 1024 bytes from 10.1.3.1 port 9
++1.090000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.090000000s UdpEchoClientApplication:Send(): At time 1.09s client sent 1024 bytes to 10.1.3.1 port 9
++1.090000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.090992012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.090992012s UdpEchoServerApplication:HandleRead(): At time 1.09099s server received 1024 bytes from 10.1.3.2 port 49153
++1.090992012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.090992012s UdpEchoServerApplication:HandleRead(): At time 1.09099s server sent 1024 bytes to 10.1.3.2 port 49153
++1.092132024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.092132024s UdpEchoClientApplication:HandleRead(): At time 1.09213s client received 1024 bytes from 10.1.3.1 port 9
++1.100000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.100000000s UdpEchoClientApplication:Send(): At time 1.1s client sent 1024 bytes to 10.1.3.1 port 9
++1.100000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.100992012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.100992012s UdpEchoServerApplication:HandleRead(): At time 1.10099s server received 1024 bytes from 10.1.3.2 port 49153
++1.100992012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.100992012s UdpEchoServerApplication:HandleRead(): At time 1.10099s server sent 1024 bytes to 10.1.3.2 port 49153
++1.102213024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.102213024s UdpEchoClientApplication:HandleRead(): At time 1.10221s client received 1024 bytes from 10.1.3.1 port 9
++1.110000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.110000000s UdpEchoClientApplication:Send(): At time 1.11s client sent 1024 bytes to 10.1.3.1 port 9
++1.110000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.110992012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.110992012s UdpEchoServerApplication:HandleRead(): At time 1.11099s server received 1024 bytes from 10.1.3.2 port 49153
++1.110992012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.110992012s UdpEchoServerApplication:HandleRead(): At time 1.11099s server sent 1024 bytes to 10.1.3.2 port 49153
++1.112123024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.112123024s UdpEchoClientApplication:HandleRead(): At time 1.11212s client received 1024 bytes from 10.1.3.1 port 9
++1.120000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.120000000s UdpEchoClientApplication:Send(): At time 1.12s client sent 1024 bytes to 10.1.3.1 port 9
++1.120000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.120992012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.120992012s UdpEchoServerApplication:HandleRead(): At time 1.12099s server received 1024 bytes from 10.1.3.2 port 49153
++1.120992012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.120992012s UdpEchoServerApplication:HandleRead(): At time 1.12099s server sent 1024 bytes to 10.1.3.2 port 49153
++1.122204024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.122204024s UdpEchoClientApplication:HandleRead(): At time 1.1222s client received 1024 bytes from 10.1.3.1 port 9
++1.130000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.130000000s UdpEchoClientApplication:Send(): At time 1.13s client sent 1024 bytes to 10.1.3.1 port 9
++1.130000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.130992012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.130992012s UdpEchoServerApplication:HandleRead(): At time 1.13099s server received 1024 bytes from 10.1.3.2 port 49153
++1.130992012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.130992012s UdpEchoServerApplication:HandleRead(): At time 1.13099s server sent 1024 bytes to 10.1.3.2 port 49153
++1.132141024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.132141024s UdpEchoClientApplication:HandleRead(): At time 1.13214s client received 1024 bytes from 10.1.3.1 port 9
++1.140000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.140000000s UdpEchoClientApplication:Send(): At time 1.14s client sent 1024 bytes to 10.1.3.1 port 9
++1.140000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.140992012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.140992012s UdpEchoServerApplication:HandleRead(): At time 1.14099s server received 1024 bytes from 10.1.3.2 port 49153
++1.140992012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.140992012s UdpEchoServerApplication:HandleRead(): At time 1.14099s server sent 1024 bytes to 10.1.3.2 port 49153
++1.142141024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.142141024s UdpEchoClientApplication:HandleRead(): At time 1.14214s client received 1024 bytes from 10.1.3.1 port 9
++1.150000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.150000000s UdpEchoClientApplication:Send(): At time 1.15s client sent 1024 bytes to 10.1.3.1 port 9
++1.150000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.150992012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.150992012s UdpEchoServerApplication:HandleRead(): At time 1.15099s server received 1024 bytes from 10.1.3.2 port 49153
++1.150992012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.150992012s UdpEchoServerApplication:HandleRead(): At time 1.15099s server sent 1024 bytes to 10.1.3.2 port 49153
++1.152186024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.152186024s UdpEchoClientApplication:HandleRead(): At time 1.15219s client received 1024 bytes from 10.1.3.1 port 9
++1.160000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.160000000s UdpEchoClientApplication:Send(): At time 1.16s client sent 1024 bytes to 10.1.3.1 port 9
++1.160000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.160992012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.160992012s UdpEchoServerApplication:HandleRead(): At time 1.16099s server received 1024 bytes from 10.1.3.2 port 49153
++1.160992012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.160992012s UdpEchoServerApplication:HandleRead(): At time 1.16099s server sent 1024 bytes to 10.1.3.2 port 49153
++1.162159024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.162159024s UdpEchoClientApplication:HandleRead(): At time 1.16216s client received 1024 bytes from 10.1.3.1 port 9
++1.170000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.170000000s UdpEchoClientApplication:Send(): At time 1.17s client sent 1024 bytes to 10.1.3.1 port 9
++1.170000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.170992012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.170992012s UdpEchoServerApplication:HandleRead(): At time 1.17099s server received 1024 bytes from 10.1.3.2 port 49153
++1.170992012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.170992012s UdpEchoServerApplication:HandleRead(): At time 1.17099s server sent 1024 bytes to 10.1.3.2 port 49153
++1.171915024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.171915024s UdpEchoClientApplication:HandleRead(): At time 1.17192s client received 1024 bytes from 10.1.3.1 port 9
++1.180000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.180000000s UdpEchoClientApplication:Send(): At time 1.18s client sent 1024 bytes to 10.1.3.1 port 9
++1.180000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.180748012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.180748012s UdpEchoServerApplication:HandleRead(): At time 1.18075s server received 1024 bytes from 10.1.3.2 port 49153
++1.180748012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.180748012s UdpEchoServerApplication:HandleRead(): At time 1.18075s server sent 1024 bytes to 10.1.3.2 port 49153
++1.181596024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.181596024s UdpEchoClientApplication:HandleRead(): At time 1.1816s client received 1024 bytes from 10.1.3.1 port 9
++1.190000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.190000000s UdpEchoClientApplication:Send(): At time 1.19s client sent 1024 bytes to 10.1.3.1 port 9
++1.190000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.190748012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.190748012s UdpEchoServerApplication:HandleRead(): At time 1.19075s server received 1024 bytes from 10.1.3.2 port 49153
++1.190748012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.190748012s UdpEchoServerApplication:HandleRead(): At time 1.19075s server sent 1024 bytes to 10.1.3.2 port 49153
++1.191695024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.191695024s UdpEchoClientApplication:HandleRead(): At time 1.1917s client received 1024 bytes from 10.1.3.1 port 9
++1.200000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.200000000s UdpEchoClientApplication:Send(): At time 1.2s client sent 1024 bytes to 10.1.3.1 port 9
++1.200000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.200748012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.200748012s UdpEchoServerApplication:HandleRead(): At time 1.20075s server received 1024 bytes from 10.1.3.2 port 49153
++1.200748012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.200748012s UdpEchoServerApplication:HandleRead(): At time 1.20075s server sent 1024 bytes to 10.1.3.2 port 49153
++1.201623024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.201623024s UdpEchoClientApplication:HandleRead(): At time 1.20162s client received 1024 bytes from 10.1.3.1 port 9
++1.210000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.210000000s UdpEchoClientApplication:Send(): At time 1.21s client sent 1024 bytes to 10.1.3.1 port 9
++1.210000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.210748012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.210748012s UdpEchoServerApplication:HandleRead(): At time 1.21075s server received 1024 bytes from 10.1.3.2 port 49153
++1.210748012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.210748012s UdpEchoServerApplication:HandleRead(): At time 1.21075s server sent 1024 bytes to 10.1.3.2 port 49153
++1.211677024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.211677024s UdpEchoClientApplication:HandleRead(): At time 1.21168s client received 1024 bytes from 10.1.3.1 port 9
++1.220000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.220000000s UdpEchoClientApplication:Send(): At time 1.22s client sent 1024 bytes to 10.1.3.1 port 9
++1.220000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.220748012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.220748012s UdpEchoServerApplication:HandleRead(): At time 1.22075s server received 1024 bytes from 10.1.3.2 port 49153
++1.220748012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.220748012s UdpEchoServerApplication:HandleRead(): At time 1.22075s server sent 1024 bytes to 10.1.3.2 port 49153
++1.221668024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.221668024s UdpEchoClientApplication:HandleRead(): At time 1.22167s client received 1024 bytes from 10.1.3.1 port 9
++1.230000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.230000000s UdpEchoClientApplication:Send(): At time 1.23s client sent 1024 bytes to 10.1.3.1 port 9
++1.230000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.230748012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.230748012s UdpEchoServerApplication:HandleRead(): At time 1.23075s server received 1024 bytes from 10.1.3.2 port 49153
++1.230748012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.230748012s UdpEchoServerApplication:HandleRead(): At time 1.23075s server sent 1024 bytes to 10.1.3.2 port 49153
++1.231650024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.231650024s UdpEchoClientApplication:HandleRead(): At time 1.23165s client received 1024 bytes from 10.1.3.1 port 9
++1.240000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.240000000s UdpEchoClientApplication:Send(): At time 1.24s client sent 1024 bytes to 10.1.3.1 port 9
++1.240000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.240748012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.240748012s UdpEchoServerApplication:HandleRead(): At time 1.24075s server received 1024 bytes from 10.1.3.2 port 49153
++1.240748012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.240748012s UdpEchoServerApplication:HandleRead(): At time 1.24075s server sent 1024 bytes to 10.1.3.2 port 49153
++1.241659024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.241659024s UdpEchoClientApplication:HandleRead(): At time 1.24166s client received 1024 bytes from 10.1.3.1 port 9
++1.250000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.250000000s UdpEchoClientApplication:Send(): At time 1.25s client sent 1024 bytes to 10.1.3.1 port 9
++1.250000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.250748013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.250748013s UdpEchoServerApplication:HandleRead(): At time 1.25075s server received 1024 bytes from 10.1.3.2 port 49153
++1.250748013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.250748013s UdpEchoServerApplication:HandleRead(): At time 1.25075s server sent 1024 bytes to 10.1.3.2 port 49153
++1.251596026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.251596026s UdpEchoClientApplication:HandleRead(): At time 1.2516s client received 1024 bytes from 10.1.3.1 port 9
++1.260000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.260000000s UdpEchoClientApplication:Send(): At time 1.26s client sent 1024 bytes to 10.1.3.1 port 9
++1.260000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.260748013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.260748013s UdpEchoServerApplication:HandleRead(): At time 1.26075s server received 1024 bytes from 10.1.3.2 port 49153
++1.260748013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.260748013s UdpEchoServerApplication:HandleRead(): At time 1.26075s server sent 1024 bytes to 10.1.3.2 port 49153
++1.261695026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.261695026s UdpEchoClientApplication:HandleRead(): At time 1.2617s client received 1024 bytes from 10.1.3.1 port 9
++1.270000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.270000000s UdpEchoClientApplication:Send(): At time 1.27s client sent 1024 bytes to 10.1.3.1 port 9
++1.270000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.270748013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.270748013s UdpEchoServerApplication:HandleRead(): At time 1.27075s server received 1024 bytes from 10.1.3.2 port 49153
++1.270748013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.270748013s UdpEchoServerApplication:HandleRead(): At time 1.27075s server sent 1024 bytes to 10.1.3.2 port 49153
++1.271392026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.271392026s UdpEchoClientApplication:HandleRead(): At time 1.27139s client received 1024 bytes from 10.1.3.1 port 9
++1.280000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.280000000s UdpEchoClientApplication:Send(): At time 1.28s client sent 1024 bytes to 10.1.3.1 port 9
++1.280000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.280508013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.280508013s UdpEchoServerApplication:HandleRead(): At time 1.28051s server received 1024 bytes from 10.1.3.2 port 49153
++1.280508013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.280508013s UdpEchoServerApplication:HandleRead(): At time 1.28051s server sent 1024 bytes to 10.1.3.2 port 49153
++1.281170026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.281170026s UdpEchoClientApplication:HandleRead(): At time 1.28117s client received 1024 bytes from 10.1.3.1 port 9
++1.290000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.290000000s UdpEchoClientApplication:Send(): At time 1.29s client sent 1024 bytes to 10.1.3.1 port 9
++1.290000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.290508013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.290508013s UdpEchoServerApplication:HandleRead(): At time 1.29051s server received 1024 bytes from 10.1.3.2 port 49153
++1.290508013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.290508013s UdpEchoServerApplication:HandleRead(): At time 1.29051s server sent 1024 bytes to 10.1.3.2 port 49153
++1.291107026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.291107026s UdpEchoClientApplication:HandleRead(): At time 1.29111s client received 1024 bytes from 10.1.3.1 port 9
++1.300000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.300000000s UdpEchoClientApplication:Send(): At time 1.3s client sent 1024 bytes to 10.1.3.1 port 9
++1.300000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.300508013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.300508013s UdpEchoServerApplication:HandleRead(): At time 1.30051s server received 1024 bytes from 10.1.3.2 port 49153
++1.300508013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.300508013s UdpEchoServerApplication:HandleRead(): At time 1.30051s server sent 1024 bytes to 10.1.3.2 port 49153
++1.301170026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.301170026s UdpEchoClientApplication:HandleRead(): At time 1.30117s client received 1024 bytes from 10.1.3.1 port 9
++1.310000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.310000000s UdpEchoClientApplication:Send(): At time 1.31s client sent 1024 bytes to 10.1.3.1 port 9
++1.310000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.310508013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.310508013s UdpEchoServerApplication:HandleRead(): At time 1.31051s server received 1024 bytes from 10.1.3.2 port 49153
++1.310508013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.310508013s UdpEchoServerApplication:HandleRead(): At time 1.31051s server sent 1024 bytes to 10.1.3.2 port 49153
++1.311233026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.311233026s UdpEchoClientApplication:HandleRead(): At time 1.31123s client received 1024 bytes from 10.1.3.1 port 9
++1.320000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.320000000s UdpEchoClientApplication:Send(): At time 1.32s client sent 1024 bytes to 10.1.3.1 port 9
++1.320000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.320508013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.320508013s UdpEchoServerApplication:HandleRead(): At time 1.32051s server received 1024 bytes from 10.1.3.2 port 49153
++1.320508013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.320508013s UdpEchoServerApplication:HandleRead(): At time 1.32051s server sent 1024 bytes to 10.1.3.2 port 49153
++1.321116026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.321116026s UdpEchoClientApplication:HandleRead(): At time 1.32112s client received 1024 bytes from 10.1.3.1 port 9
++1.330000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.330000000s UdpEchoClientApplication:Send(): At time 1.33s client sent 1024 bytes to 10.1.3.1 port 9
++1.330000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.330508013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.330508013s UdpEchoServerApplication:HandleRead(): At time 1.33051s server received 1024 bytes from 10.1.3.2 port 49153
++1.330508013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.330508013s UdpEchoServerApplication:HandleRead(): At time 1.33051s server sent 1024 bytes to 10.1.3.2 port 49153
++1.331197026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.331197026s UdpEchoClientApplication:HandleRead(): At time 1.3312s client received 1024 bytes from 10.1.3.1 port 9
++1.340000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.340000000s UdpEchoClientApplication:Send(): At time 1.34s client sent 1024 bytes to 10.1.3.1 port 9
++1.340000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.340508013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.340508013s UdpEchoServerApplication:HandleRead(): At time 1.34051s server received 1024 bytes from 10.1.3.2 port 49153
++1.340508013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.340508013s UdpEchoServerApplication:HandleRead(): At time 1.34051s server sent 1024 bytes to 10.1.3.2 port 49153
++1.341206026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.341206026s UdpEchoClientApplication:HandleRead(): At time 1.34121s client received 1024 bytes from 10.1.3.1 port 9
++1.350000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.350000000s UdpEchoClientApplication:Send(): At time 1.35s client sent 1024 bytes to 10.1.3.1 port 9
++1.350000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.350508013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.350508013s UdpEchoServerApplication:HandleRead(): At time 1.35051s server received 1024 bytes from 10.1.3.2 port 49153
++1.350508013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.350508013s UdpEchoServerApplication:HandleRead(): At time 1.35051s server sent 1024 bytes to 10.1.3.2 port 49153
++1.351179026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.351179026s UdpEchoClientApplication:HandleRead(): At time 1.35118s client received 1024 bytes from 10.1.3.1 port 9
++1.360000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.360000000s UdpEchoClientApplication:Send(): At time 1.36s client sent 1024 bytes to 10.1.3.1 port 9
++1.360000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.360508013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.360508013s UdpEchoServerApplication:HandleRead(): At time 1.36051s server received 1024 bytes from 10.1.3.2 port 49153
++1.360508013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.360508013s UdpEchoServerApplication:HandleRead(): At time 1.36051s server sent 1024 bytes to 10.1.3.2 port 49153
++1.361188026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.361188026s UdpEchoClientApplication:HandleRead(): At time 1.36119s client received 1024 bytes from 10.1.3.1 port 9
++1.370000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.370000000s UdpEchoClientApplication:Send(): At time 1.37s client sent 1024 bytes to 10.1.3.1 port 9
++1.370000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.370508013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.370508013s UdpEchoServerApplication:HandleRead(): At time 1.37051s server received 1024 bytes from 10.1.3.2 port 49153
++1.370508013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.370508013s UdpEchoServerApplication:HandleRead(): At time 1.37051s server sent 1024 bytes to 10.1.3.2 port 49153
++1.371028026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.371028026s UdpEchoClientApplication:HandleRead(): At time 1.37103s client received 1024 bytes from 10.1.3.1 port 9
++1.380000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.380000000s UdpEchoClientApplication:Send(): At time 1.38s client sent 1024 bytes to 10.1.3.1 port 9
++1.380000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.380384013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.380384013s UdpEchoServerApplication:HandleRead(): At time 1.38038s server received 1024 bytes from 10.1.3.2 port 49153
++1.380384013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.380384013s UdpEchoServerApplication:HandleRead(): At time 1.38038s server sent 1024 bytes to 10.1.3.2 port 49153
++1.380936026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.380936026s UdpEchoClientApplication:HandleRead(): At time 1.38094s client received 1024 bytes from 10.1.3.1 port 9
++1.390000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.390000000s UdpEchoClientApplication:Send(): At time 1.39s client sent 1024 bytes to 10.1.3.1 port 9
++1.390000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.390384013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.390384013s UdpEchoServerApplication:HandleRead(): At time 1.39038s server received 1024 bytes from 10.1.3.2 port 49153
++1.390384013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.390384013s UdpEchoServerApplication:HandleRead(): At time 1.39038s server sent 1024 bytes to 10.1.3.2 port 49153
++1.390936026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.390936026s UdpEchoClientApplication:HandleRead(): At time 1.39094s client received 1024 bytes from 10.1.3.1 port 9
++1.400000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.400000000s UdpEchoClientApplication:Send(): At time 1.4s client sent 1024 bytes to 10.1.3.1 port 9
++1.400000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.400384013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.400384013s UdpEchoServerApplication:HandleRead(): At time 1.40038s server received 1024 bytes from 10.1.3.2 port 49153
++1.400384013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.400384013s UdpEchoServerApplication:HandleRead(): At time 1.40038s server sent 1024 bytes to 10.1.3.2 port 49153
++1.400909026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.400909026s UdpEchoClientApplication:HandleRead(): At time 1.40091s client received 1024 bytes from 10.1.3.1 port 9
++1.410000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.410000000s UdpEchoClientApplication:Send(): At time 1.41s client sent 1024 bytes to 10.1.3.1 port 9
++1.410000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.410384013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.410384013s UdpEchoServerApplication:HandleRead(): At time 1.41038s server received 1024 bytes from 10.1.3.2 port 49153
++1.410384013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.410384013s UdpEchoServerApplication:HandleRead(): At time 1.41038s server sent 1024 bytes to 10.1.3.2 port 49153
++1.410846026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.410846026s UdpEchoClientApplication:HandleRead(): At time 1.41085s client received 1024 bytes from 10.1.3.1 port 9
++1.420000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.420000000s UdpEchoClientApplication:Send(): At time 1.42s client sent 1024 bytes to 10.1.3.1 port 9
++1.420000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.420384014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.420384014s UdpEchoServerApplication:HandleRead(): At time 1.42038s server received 1024 bytes from 10.1.3.2 port 49153
++1.420384014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.420384014s UdpEchoServerApplication:HandleRead(): At time 1.42038s server sent 1024 bytes to 10.1.3.2 port 49153
++1.420981028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.420981028s UdpEchoClientApplication:HandleRead(): At time 1.42098s client received 1024 bytes from 10.1.3.1 port 9
++1.430000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.430000000s UdpEchoClientApplication:Send(): At time 1.43s client sent 1024 bytes to 10.1.3.1 port 9
++1.430000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.430384014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.430384014s UdpEchoServerApplication:HandleRead(): At time 1.43038s server received 1024 bytes from 10.1.3.2 port 49153
++1.430384014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.430384014s UdpEchoServerApplication:HandleRead(): At time 1.43038s server sent 1024 bytes to 10.1.3.2 port 49153
++1.430918028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.430918028s UdpEchoClientApplication:HandleRead(): At time 1.43092s client received 1024 bytes from 10.1.3.1 port 9
++1.440000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.440000000s UdpEchoClientApplication:Send(): At time 1.44s client sent 1024 bytes to 10.1.3.1 port 9
++1.440000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.440384014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.440384014s UdpEchoServerApplication:HandleRead(): At time 1.44038s server received 1024 bytes from 10.1.3.2 port 49153
++1.440384014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.440384014s UdpEchoServerApplication:HandleRead(): At time 1.44038s server sent 1024 bytes to 10.1.3.2 port 49153
++1.440963028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.440963028s UdpEchoClientApplication:HandleRead(): At time 1.44096s client received 1024 bytes from 10.1.3.1 port 9
++1.450000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.450000000s UdpEchoClientApplication:Send(): At time 1.45s client sent 1024 bytes to 10.1.3.1 port 9
++1.450000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.450384014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.450384014s UdpEchoServerApplication:HandleRead(): At time 1.45038s server received 1024 bytes from 10.1.3.2 port 49153
++1.450384014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.450384014s UdpEchoServerApplication:HandleRead(): At time 1.45038s server sent 1024 bytes to 10.1.3.2 port 49153
++1.450846028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.450846028s UdpEchoClientApplication:HandleRead(): At time 1.45085s client received 1024 bytes from 10.1.3.1 port 9
++1.460000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.460000000s UdpEchoClientApplication:Send(): At time 1.46s client sent 1024 bytes to 10.1.3.1 port 9
++1.460000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.460384014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.460384014s UdpEchoServerApplication:HandleRead(): At time 1.46038s server received 1024 bytes from 10.1.3.2 port 49153
++1.460384014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.460384014s UdpEchoServerApplication:HandleRead(): At time 1.46038s server sent 1024 bytes to 10.1.3.2 port 49153
++1.460963028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.460963028s UdpEchoClientApplication:HandleRead(): At time 1.46096s client received 1024 bytes from 10.1.3.1 port 9
++1.470000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.470000000s UdpEchoClientApplication:Send(): At time 1.47s client sent 1024 bytes to 10.1.3.1 port 9
++1.470000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.470384014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.470384014s UdpEchoServerApplication:HandleRead(): At time 1.47038s server received 1024 bytes from 10.1.3.2 port 49153
++1.470384014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.470384014s UdpEchoServerApplication:HandleRead(): At time 1.47038s server sent 1024 bytes to 10.1.3.2 port 49153
++1.470807028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.470807028s UdpEchoClientApplication:HandleRead(): At time 1.47081s client received 1024 bytes from 10.1.3.1 port 9
++1.480000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.480000000s UdpEchoClientApplication:Send(): At time 1.48s client sent 1024 bytes to 10.1.3.1 port 9
++1.480000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.480264014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.480264014s UdpEchoServerApplication:HandleRead(): At time 1.48026s server received 1024 bytes from 10.1.3.2 port 49153
++1.480264014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.480264014s UdpEchoServerApplication:HandleRead(): At time 1.48026s server sent 1024 bytes to 10.1.3.2 port 49153
++1.480606028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.480606028s UdpEchoClientApplication:HandleRead(): At time 1.48061s client received 1024 bytes from 10.1.3.1 port 9
++1.490000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.490000000s UdpEchoClientApplication:Send(): At time 1.49s client sent 1024 bytes to 10.1.3.1 port 9
++1.490000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.490264014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.490264014s UdpEchoServerApplication:HandleRead(): At time 1.49026s server received 1024 bytes from 10.1.3.2 port 49153
++1.490264014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.490264014s UdpEchoServerApplication:HandleRead(): At time 1.49026s server sent 1024 bytes to 10.1.3.2 port 49153
++1.490741028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.490741028s UdpEchoClientApplication:HandleRead(): At time 1.49074s client received 1024 bytes from 10.1.3.1 port 9
++1.500000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.500000000s UdpEchoClientApplication:Send(): At time 1.5s client sent 1024 bytes to 10.1.3.1 port 9
++1.500000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.500264014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.500264014s UdpEchoServerApplication:HandleRead(): At time 1.50026s server received 1024 bytes from 10.1.3.2 port 49153
++1.500264014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.500264014s UdpEchoServerApplication:HandleRead(): At time 1.50026s server sent 1024 bytes to 10.1.3.2 port 49153
++1.500705028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.500705028s UdpEchoClientApplication:HandleRead(): At time 1.50071s client received 1024 bytes from 10.1.3.1 port 9
++1.510000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.510000000s UdpEchoClientApplication:Send(): At time 1.51s client sent 1024 bytes to 10.1.3.1 port 9
++1.510000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.510264014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.510264014s UdpEchoServerApplication:HandleRead(): At time 1.51026s server received 1024 bytes from 10.1.3.2 port 49153
++1.510264014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.510264014s UdpEchoServerApplication:HandleRead(): At time 1.51026s server sent 1024 bytes to 10.1.3.2 port 49153
++1.510687028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.510687028s UdpEchoClientApplication:HandleRead(): At time 1.51069s client received 1024 bytes from 10.1.3.1 port 9
++1.520000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.520000000s UdpEchoClientApplication:Send(): At time 1.52s client sent 1024 bytes to 10.1.3.1 port 9
++1.520000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.520264014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.520264014s UdpEchoServerApplication:HandleRead(): At time 1.52026s server received 1024 bytes from 10.1.3.2 port 49153
++1.520264014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.520264014s UdpEchoServerApplication:HandleRead(): At time 1.52026s server sent 1024 bytes to 10.1.3.2 port 49153
++1.520606028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.520606028s UdpEchoClientApplication:HandleRead(): At time 1.52061s client received 1024 bytes from 10.1.3.1 port 9
++1.530000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.530000000s UdpEchoClientApplication:Send(): At time 1.53s client sent 1024 bytes to 10.1.3.1 port 9
++1.530000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.530264014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.530264014s UdpEchoServerApplication:HandleRead(): At time 1.53026s server received 1024 bytes from 10.1.3.2 port 49153
++1.530264014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.530264014s UdpEchoServerApplication:HandleRead(): At time 1.53026s server sent 1024 bytes to 10.1.3.2 port 49153
++1.530651028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.530651028s UdpEchoClientApplication:HandleRead(): At time 1.53065s client received 1024 bytes from 10.1.3.1 port 9
++1.540000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.540000000s UdpEchoClientApplication:Send(): At time 1.54s client sent 1024 bytes to 10.1.3.1 port 9
++1.540000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.540264014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.540264014s UdpEchoServerApplication:HandleRead(): At time 1.54026s server received 1024 bytes from 10.1.3.2 port 49153
++1.540264014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.540264014s UdpEchoServerApplication:HandleRead(): At time 1.54026s server sent 1024 bytes to 10.1.3.2 port 49153
++1.540678028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.540678028s UdpEchoClientApplication:HandleRead(): At time 1.54068s client received 1024 bytes from 10.1.3.1 port 9
++1.550000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.550000000s UdpEchoClientApplication:Send(): At time 1.55s client sent 1024 bytes to 10.1.3.1 port 9
++1.550000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.550264014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.550264014s UdpEchoServerApplication:HandleRead(): At time 1.55026s server received 1024 bytes from 10.1.3.2 port 49153
++1.550264014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.550264014s UdpEchoServerApplication:HandleRead(): At time 1.55026s server sent 1024 bytes to 10.1.3.2 port 49153
++1.550624028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.550624028s UdpEchoClientApplication:HandleRead(): At time 1.55062s client received 1024 bytes from 10.1.3.1 port 9
++1.560000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.560000000s UdpEchoClientApplication:Send(): At time 1.56s client sent 1024 bytes to 10.1.3.1 port 9
++1.560000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.560264014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.560264014s UdpEchoServerApplication:HandleRead(): At time 1.56026s server received 1024 bytes from 10.1.3.2 port 49153
++1.560264014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.560264014s UdpEchoServerApplication:HandleRead(): At time 1.56026s server sent 1024 bytes to 10.1.3.2 port 49153
++1.560696028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.560696028s UdpEchoClientApplication:HandleRead(): At time 1.5607s client received 1024 bytes from 10.1.3.1 port 9
++1.570000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.570000000s UdpEchoClientApplication:Send(): At time 1.57s client sent 1024 bytes to 10.1.3.1 port 9
++1.570000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.570264014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.570264014s UdpEchoServerApplication:HandleRead(): At time 1.57026s server received 1024 bytes from 10.1.3.2 port 49153
++1.570264014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.570264014s UdpEchoServerApplication:HandleRead(): At time 1.57026s server sent 1024 bytes to 10.1.3.2 port 49153
++1.570555028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.570555028s UdpEchoClientApplication:HandleRead(): At time 1.57056s client received 1024 bytes from 10.1.3.1 port 9
++1.580000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.580000000s UdpEchoClientApplication:Send(): At time 1.58s client sent 1024 bytes to 10.1.3.1 port 9
++1.580000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.580204014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.580204014s UdpEchoServerApplication:HandleRead(): At time 1.5802s server received 1024 bytes from 10.1.3.2 port 49153
++1.580204014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.580204014s UdpEchoServerApplication:HandleRead(): At time 1.5802s server sent 1024 bytes to 10.1.3.2 port 49153
++1.580540028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.580540028s UdpEchoClientApplication:HandleRead(): At time 1.58054s client received 1024 bytes from 10.1.3.1 port 9
++1.590000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.590000000s UdpEchoClientApplication:Send(): At time 1.59s client sent 1024 bytes to 10.1.3.1 port 9
++1.590000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.590204014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.590204014s UdpEchoServerApplication:HandleRead(): At time 1.5902s server received 1024 bytes from 10.1.3.2 port 49153
++1.590204014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.590204014s UdpEchoServerApplication:HandleRead(): At time 1.5902s server sent 1024 bytes to 10.1.3.2 port 49153
++1.590495028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.590495028s UdpEchoClientApplication:HandleRead(): At time 1.5905s client received 1024 bytes from 10.1.3.1 port 9
++1.600000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.600000000s UdpEchoClientApplication:Send(): At time 1.6s client sent 1024 bytes to 10.1.3.1 port 9
++1.600000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.600204014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.600204014s UdpEchoServerApplication:HandleRead(): At time 1.6002s server received 1024 bytes from 10.1.3.2 port 49153
++1.600204014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.600204014s UdpEchoServerApplication:HandleRead(): At time 1.6002s server sent 1024 bytes to 10.1.3.2 port 49153
++1.600603028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.600603028s UdpEchoClientApplication:HandleRead(): At time 1.6006s client received 1024 bytes from 10.1.3.1 port 9
++1.610000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.610000000s UdpEchoClientApplication:Send(): At time 1.61s client sent 1024 bytes to 10.1.3.1 port 9
++1.610000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.610204014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.610204014s UdpEchoServerApplication:HandleRead(): At time 1.6102s server received 1024 bytes from 10.1.3.2 port 49153
++1.610204014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.610204014s UdpEchoServerApplication:HandleRead(): At time 1.6102s server sent 1024 bytes to 10.1.3.2 port 49153
++1.610567028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.610567028s UdpEchoClientApplication:HandleRead(): At time 1.61057s client received 1024 bytes from 10.1.3.1 port 9
++1.620000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.620000000s UdpEchoClientApplication:Send(): At time 1.62s client sent 1024 bytes to 10.1.3.1 port 9
++1.620000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.620204014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.620204014s UdpEchoServerApplication:HandleRead(): At time 1.6202s server received 1024 bytes from 10.1.3.2 port 49153
++1.620204014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.620204014s UdpEchoServerApplication:HandleRead(): At time 1.6202s server sent 1024 bytes to 10.1.3.2 port 49153
++1.620612028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.620612028s UdpEchoClientApplication:HandleRead(): At time 1.62061s client received 1024 bytes from 10.1.3.1 port 9
++1.630000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.630000000s UdpEchoClientApplication:Send(): At time 1.63s client sent 1024 bytes to 10.1.3.1 port 9
++1.630000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.630204014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.630204014s UdpEchoServerApplication:HandleRead(): At time 1.6302s server received 1024 bytes from 10.1.3.2 port 49153
++1.630204014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.630204014s UdpEchoServerApplication:HandleRead(): At time 1.6302s server sent 1024 bytes to 10.1.3.2 port 49153
++1.630585028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.630585028s UdpEchoClientApplication:HandleRead(): At time 1.63059s client received 1024 bytes from 10.1.3.1 port 9
++1.640000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.640000000s UdpEchoClientApplication:Send(): At time 1.64s client sent 1024 bytes to 10.1.3.1 port 9
++1.640000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.640204014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.640204014s UdpEchoServerApplication:HandleRead(): At time 1.6402s server received 1024 bytes from 10.1.3.2 port 49153
++1.640204014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.640204014s UdpEchoServerApplication:HandleRead(): At time 1.6402s server sent 1024 bytes to 10.1.3.2 port 49153
++1.640495028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.640495028s UdpEchoClientApplication:HandleRead(): At time 1.6405s client received 1024 bytes from 10.1.3.1 port 9
++1.650000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.650000000s UdpEchoClientApplication:Send(): At time 1.65s client sent 1024 bytes to 10.1.3.1 port 9
++1.650000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.650204014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.650204014s UdpEchoServerApplication:HandleRead(): At time 1.6502s server received 1024 bytes from 10.1.3.2 port 49153
++1.650204014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.650204014s UdpEchoServerApplication:HandleRead(): At time 1.6502s server sent 1024 bytes to 10.1.3.2 port 49153
++1.650486028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.650486028s UdpEchoClientApplication:HandleRead(): At time 1.65049s client received 1024 bytes from 10.1.3.1 port 9
++1.660000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.660000000s UdpEchoClientApplication:Send(): At time 1.66s client sent 1024 bytes to 10.1.3.1 port 9
++1.660000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.660204014s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.660204014s UdpEchoServerApplication:HandleRead(): At time 1.6602s server received 1024 bytes from 10.1.3.2 port 49153
++1.660204014s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.660204014s UdpEchoServerApplication:HandleRead(): At time 1.6602s server sent 1024 bytes to 10.1.3.2 port 49153
++1.660540028s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.660540028s UdpEchoClientApplication:HandleRead(): At time 1.66054s client received 1024 bytes from 10.1.3.1 port 9
++1.670000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.670000000s UdpEchoClientApplication:Send(): At time 1.67s client sent 1024 bytes to 10.1.3.1 port 9
++1.670000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.670204013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.670204013s UdpEchoServerApplication:HandleRead(): At time 1.6702s server received 1024 bytes from 10.1.3.2 port 49153
++1.670204013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.670204013s UdpEchoServerApplication:HandleRead(): At time 1.6702s server sent 1024 bytes to 10.1.3.2 port 49153
++1.670601026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.670601026s UdpEchoClientApplication:HandleRead(): At time 1.6706s client received 1024 bytes from 10.1.3.1 port 9
++1.680000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.680000000s UdpEchoClientApplication:Send(): At time 1.68s client sent 1024 bytes to 10.1.3.1 port 9
++1.680000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.680184013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.680184013s UdpEchoServerApplication:HandleRead(): At time 1.68018s server received 1024 bytes from 10.1.3.2 port 49153
++1.680184013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.680184013s UdpEchoServerApplication:HandleRead(): At time 1.68018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.680491026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.680491026s UdpEchoClientApplication:HandleRead(): At time 1.68049s client received 1024 bytes from 10.1.3.1 port 9
++1.690000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.690000000s UdpEchoClientApplication:Send(): At time 1.69s client sent 1024 bytes to 10.1.3.1 port 9
++1.690000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.690184013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.690184013s UdpEchoServerApplication:HandleRead(): At time 1.69018s server received 1024 bytes from 10.1.3.2 port 49153
++1.690184013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.690184013s UdpEchoServerApplication:HandleRead(): At time 1.69018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.690473026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.690473026s UdpEchoClientApplication:HandleRead(): At time 1.69047s client received 1024 bytes from 10.1.3.1 port 9
++1.700000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.700000000s UdpEchoClientApplication:Send(): At time 1.7s client sent 1024 bytes to 10.1.3.1 port 9
++1.700000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.700184013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.700184013s UdpEchoServerApplication:HandleRead(): At time 1.70018s server received 1024 bytes from 10.1.3.2 port 49153
++1.700184013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.700184013s UdpEchoServerApplication:HandleRead(): At time 1.70018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.700572026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.700572026s UdpEchoClientApplication:HandleRead(): At time 1.70057s client received 1024 bytes from 10.1.3.1 port 9
++1.710000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.710000000s UdpEchoClientApplication:Send(): At time 1.71s client sent 1024 bytes to 10.1.3.1 port 9
++1.710000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.710184013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.710184013s UdpEchoServerApplication:HandleRead(): At time 1.71018s server received 1024 bytes from 10.1.3.2 port 49153
++1.710184013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.710184013s UdpEchoServerApplication:HandleRead(): At time 1.71018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.710464026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.710464026s UdpEchoClientApplication:HandleRead(): At time 1.71046s client received 1024 bytes from 10.1.3.1 port 9
++1.720000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.720000000s UdpEchoClientApplication:Send(): At time 1.72s client sent 1024 bytes to 10.1.3.1 port 9
++1.720000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.720184013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.720184013s UdpEchoServerApplication:HandleRead(): At time 1.72018s server received 1024 bytes from 10.1.3.2 port 49153
++1.720184013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.720184013s UdpEchoServerApplication:HandleRead(): At time 1.72018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.720518026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.720518026s UdpEchoClientApplication:HandleRead(): At time 1.72052s client received 1024 bytes from 10.1.3.1 port 9
++1.730000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.730000000s UdpEchoClientApplication:Send(): At time 1.73s client sent 1024 bytes to 10.1.3.1 port 9
++1.730000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.730184013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.730184013s UdpEchoServerApplication:HandleRead(): At time 1.73018s server received 1024 bytes from 10.1.3.2 port 49153
++1.730184013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.730184013s UdpEchoServerApplication:HandleRead(): At time 1.73018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.730572026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.730572026s UdpEchoClientApplication:HandleRead(): At time 1.73057s client received 1024 bytes from 10.1.3.1 port 9
++1.740000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.740000000s UdpEchoClientApplication:Send(): At time 1.74s client sent 1024 bytes to 10.1.3.1 port 9
++1.740000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.740184013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.740184013s UdpEchoServerApplication:HandleRead(): At time 1.74018s server received 1024 bytes from 10.1.3.2 port 49153
++1.740184013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.740184013s UdpEchoServerApplication:HandleRead(): At time 1.74018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.740563026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.740563026s UdpEchoClientApplication:HandleRead(): At time 1.74056s client received 1024 bytes from 10.1.3.1 port 9
++1.750000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.750000000s UdpEchoClientApplication:Send(): At time 1.75s client sent 1024 bytes to 10.1.3.1 port 9
++1.750000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.750184013s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.750184013s UdpEchoServerApplication:HandleRead(): At time 1.75018s server received 1024 bytes from 10.1.3.2 port 49153
++1.750184013s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.750184013s UdpEchoServerApplication:HandleRead(): At time 1.75018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.750509026s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.750509026s UdpEchoClientApplication:HandleRead(): At time 1.75051s client received 1024 bytes from 10.1.3.1 port 9
++1.760000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.760000000s UdpEchoClientApplication:Send(): At time 1.76s client sent 1024 bytes to 10.1.3.1 port 9
++1.760000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.760184012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.760184012s UdpEchoServerApplication:HandleRead(): At time 1.76018s server received 1024 bytes from 10.1.3.2 port 49153
++1.760184012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.760184012s UdpEchoServerApplication:HandleRead(): At time 1.76018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.760482024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.760482024s UdpEchoClientApplication:HandleRead(): At time 1.76048s client received 1024 bytes from 10.1.3.1 port 9
++1.770000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.770000000s UdpEchoClientApplication:Send(): At time 1.77s client sent 1024 bytes to 10.1.3.1 port 9
++1.770000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.770184012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.770184012s UdpEchoServerApplication:HandleRead(): At time 1.77018s server received 1024 bytes from 10.1.3.2 port 49153
++1.770184012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.770184012s UdpEchoServerApplication:HandleRead(): At time 1.77018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.770500024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.770500024s UdpEchoClientApplication:HandleRead(): At time 1.7705s client received 1024 bytes from 10.1.3.1 port 9
++1.780000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.780000000s UdpEchoClientApplication:Send(): At time 1.78s client sent 1024 bytes to 10.1.3.1 port 9
++1.780000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.780184012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.780184012s UdpEchoServerApplication:HandleRead(): At time 1.78018s server received 1024 bytes from 10.1.3.2 port 49153
++1.780184012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.780184012s UdpEchoServerApplication:HandleRead(): At time 1.78018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.780509024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.780509024s UdpEchoClientApplication:HandleRead(): At time 1.78051s client received 1024 bytes from 10.1.3.1 port 9
++1.790000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.790000000s UdpEchoClientApplication:Send(): At time 1.79s client sent 1024 bytes to 10.1.3.1 port 9
++1.790000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.790184012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.790184012s UdpEchoServerApplication:HandleRead(): At time 1.79018s server received 1024 bytes from 10.1.3.2 port 49153
++1.790184012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.790184012s UdpEchoServerApplication:HandleRead(): At time 1.79018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.790545024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.790545024s UdpEchoClientApplication:HandleRead(): At time 1.79055s client received 1024 bytes from 10.1.3.1 port 9
++1.800000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.800000000s UdpEchoClientApplication:Send(): At time 1.8s client sent 1024 bytes to 10.1.3.1 port 9
++1.800000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.800184012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.800184012s UdpEchoServerApplication:HandleRead(): At time 1.80018s server received 1024 bytes from 10.1.3.2 port 49153
++1.800184012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.800184012s UdpEchoServerApplication:HandleRead(): At time 1.80018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.800581024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.800581024s UdpEchoClientApplication:HandleRead(): At time 1.80058s client received 1024 bytes from 10.1.3.1 port 9
++1.810000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.810000000s UdpEchoClientApplication:Send(): At time 1.81s client sent 1024 bytes to 10.1.3.1 port 9
++1.810000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.810184012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.810184012s UdpEchoServerApplication:HandleRead(): At time 1.81018s server received 1024 bytes from 10.1.3.2 port 49153
++1.810184012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.810184012s UdpEchoServerApplication:HandleRead(): At time 1.81018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.810518024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.810518024s UdpEchoClientApplication:HandleRead(): At time 1.81052s client received 1024 bytes from 10.1.3.1 port 9
++1.820000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.820000000s UdpEchoClientApplication:Send(): At time 1.82s client sent 1024 bytes to 10.1.3.1 port 9
++1.820000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.820184012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.820184012s UdpEchoServerApplication:HandleRead(): At time 1.82018s server received 1024 bytes from 10.1.3.2 port 49153
++1.820184012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.820184012s UdpEchoServerApplication:HandleRead(): At time 1.82018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.820527024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.820527024s UdpEchoClientApplication:HandleRead(): At time 1.82053s client received 1024 bytes from 10.1.3.1 port 9
++1.830000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.830000000s UdpEchoClientApplication:Send(): At time 1.83s client sent 1024 bytes to 10.1.3.1 port 9
++1.830000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.830184012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.830184012s UdpEchoServerApplication:HandleRead(): At time 1.83018s server received 1024 bytes from 10.1.3.2 port 49153
++1.830184012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.830184012s UdpEchoServerApplication:HandleRead(): At time 1.83018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.830473024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.830473024s UdpEchoClientApplication:HandleRead(): At time 1.83047s client received 1024 bytes from 10.1.3.1 port 9
++1.840000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.840000000s UdpEchoClientApplication:Send(): At time 1.84s client sent 1024 bytes to 10.1.3.1 port 9
++1.840000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.840184012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.840184012s UdpEchoServerApplication:HandleRead(): At time 1.84018s server received 1024 bytes from 10.1.3.2 port 49153
++1.840184012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.840184012s UdpEchoServerApplication:HandleRead(): At time 1.84018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.840527024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.840527024s UdpEchoClientApplication:HandleRead(): At time 1.84053s client received 1024 bytes from 10.1.3.1 port 9
++1.850000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.850000000s UdpEchoClientApplication:Send(): At time 1.85s client sent 1024 bytes to 10.1.3.1 port 9
++1.850000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.850184011s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.850184011s UdpEchoServerApplication:HandleRead(): At time 1.85018s server received 1024 bytes from 10.1.3.2 port 49153
++1.850184011s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.850184011s UdpEchoServerApplication:HandleRead(): At time 1.85018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.850464022s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.850464022s UdpEchoClientApplication:HandleRead(): At time 1.85046s client received 1024 bytes from 10.1.3.1 port 9
++1.860000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.860000000s UdpEchoClientApplication:Send(): At time 1.86s client sent 1024 bytes to 10.1.3.1 port 9
++1.860000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.860184011s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.860184011s UdpEchoServerApplication:HandleRead(): At time 1.86018s server received 1024 bytes from 10.1.3.2 port 49153
++1.860184011s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.860184011s UdpEchoServerApplication:HandleRead(): At time 1.86018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.860527022s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.860527022s UdpEchoClientApplication:HandleRead(): At time 1.86053s client received 1024 bytes from 10.1.3.1 port 9
++1.870000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.870000000s UdpEchoClientApplication:Send(): At time 1.87s client sent 1024 bytes to 10.1.3.1 port 9
++1.870000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.870184011s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.870184011s UdpEchoServerApplication:HandleRead(): At time 1.87018s server received 1024 bytes from 10.1.3.2 port 49153
++1.870184011s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.870184011s UdpEchoServerApplication:HandleRead(): At time 1.87018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.870455022s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.870455022s UdpEchoClientApplication:HandleRead(): At time 1.87046s client received 1024 bytes from 10.1.3.1 port 9
++1.880000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.880000000s UdpEchoClientApplication:Send(): At time 1.88s client sent 1024 bytes to 10.1.3.1 port 9
++1.880000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.880184011s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.880184011s UdpEchoServerApplication:HandleRead(): At time 1.88018s server received 1024 bytes from 10.1.3.2 port 49153
++1.880184011s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.880184011s UdpEchoServerApplication:HandleRead(): At time 1.88018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.880473022s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.880473022s UdpEchoClientApplication:HandleRead(): At time 1.88047s client received 1024 bytes from 10.1.3.1 port 9
++1.890000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.890000000s UdpEchoClientApplication:Send(): At time 1.89s client sent 1024 bytes to 10.1.3.1 port 9
++1.890000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.890184011s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.890184011s UdpEchoServerApplication:HandleRead(): At time 1.89018s server received 1024 bytes from 10.1.3.2 port 49153
++1.890184011s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.890184011s UdpEchoServerApplication:HandleRead(): At time 1.89018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.890572022s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.890572022s UdpEchoClientApplication:HandleRead(): At time 1.89057s client received 1024 bytes from 10.1.3.1 port 9
++1.900000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.900000000s UdpEchoClientApplication:Send(): At time 1.9s client sent 1024 bytes to 10.1.3.1 port 9
++1.900000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.900184011s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.900184011s UdpEchoServerApplication:HandleRead(): At time 1.90018s server received 1024 bytes from 10.1.3.2 port 49153
++1.900184011s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.900184011s UdpEchoServerApplication:HandleRead(): At time 1.90018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.900509022s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.900509022s UdpEchoClientApplication:HandleRead(): At time 1.90051s client received 1024 bytes from 10.1.3.1 port 9
++1.910000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.910000000s UdpEchoClientApplication:Send(): At time 1.91s client sent 1024 bytes to 10.1.3.1 port 9
++1.910000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.910184012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.910184012s UdpEchoServerApplication:HandleRead(): At time 1.91018s server received 1024 bytes from 10.1.3.2 port 49153
++1.910184012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.910184012s UdpEchoServerApplication:HandleRead(): At time 1.91018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.910491024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.910491024s UdpEchoClientApplication:HandleRead(): At time 1.91049s client received 1024 bytes from 10.1.3.1 port 9
++1.920000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.920000000s UdpEchoClientApplication:Send(): At time 1.92s client sent 1024 bytes to 10.1.3.1 port 9
++1.920000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.920184012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.920184012s UdpEchoServerApplication:HandleRead(): At time 1.92018s server received 1024 bytes from 10.1.3.2 port 49153
++1.920184012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.920184012s UdpEchoServerApplication:HandleRead(): At time 1.92018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.920527024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.920527024s UdpEchoClientApplication:HandleRead(): At time 1.92053s client received 1024 bytes from 10.1.3.1 port 9
++1.930000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.930000000s UdpEchoClientApplication:Send(): At time 1.93s client sent 1024 bytes to 10.1.3.1 port 9
++1.930000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.930184012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.930184012s UdpEchoServerApplication:HandleRead(): At time 1.93018s server received 1024 bytes from 10.1.3.2 port 49153
++1.930184012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.930184012s UdpEchoServerApplication:HandleRead(): At time 1.93018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.930473024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.930473024s UdpEchoClientApplication:HandleRead(): At time 1.93047s client received 1024 bytes from 10.1.3.1 port 9
++1.940000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.940000000s UdpEchoClientApplication:Send(): At time 1.94s client sent 1024 bytes to 10.1.3.1 port 9
++1.940000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.940184012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.940184012s UdpEchoServerApplication:HandleRead(): At time 1.94018s server received 1024 bytes from 10.1.3.2 port 49153
++1.940184012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.940184012s UdpEchoServerApplication:HandleRead(): At time 1.94018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.940563024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.940563024s UdpEchoClientApplication:HandleRead(): At time 1.94056s client received 1024 bytes from 10.1.3.1 port 9
++1.950000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.950000000s UdpEchoClientApplication:Send(): At time 1.95s client sent 1024 bytes to 10.1.3.1 port 9
++1.950000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.950184012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.950184012s UdpEchoServerApplication:HandleRead(): At time 1.95018s server received 1024 bytes from 10.1.3.2 port 49153
++1.950184012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.950184012s UdpEchoServerApplication:HandleRead(): At time 1.95018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.950491024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.950491024s UdpEchoClientApplication:HandleRead(): At time 1.95049s client received 1024 bytes from 10.1.3.1 port 9
++1.960000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.960000000s UdpEchoClientApplication:Send(): At time 1.96s client sent 1024 bytes to 10.1.3.1 port 9
++1.960000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.960184012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.960184012s UdpEchoServerApplication:HandleRead(): At time 1.96018s server received 1024 bytes from 10.1.3.2 port 49153
++1.960184012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.960184012s UdpEchoServerApplication:HandleRead(): At time 1.96018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.960572024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.960572024s UdpEchoClientApplication:HandleRead(): At time 1.96057s client received 1024 bytes from 10.1.3.1 port 9
++1.970000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.970000000s UdpEchoClientApplication:Send(): At time 1.97s client sent 1024 bytes to 10.1.3.1 port 9
++1.970000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.970184012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.970184012s UdpEchoServerApplication:HandleRead(): At time 1.97018s server received 1024 bytes from 10.1.3.2 port 49153
++1.970184012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.970184012s UdpEchoServerApplication:HandleRead(): At time 1.97018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.970473024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.970473024s UdpEchoClientApplication:HandleRead(): At time 1.97047s client received 1024 bytes from 10.1.3.1 port 9
++1.980000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.980000000s UdpEchoClientApplication:Send(): At time 1.98s client sent 1024 bytes to 10.1.3.1 port 9
++1.980000000s UdpEchoClientApplication:ScheduleTransmit(0x55938a076fc0, +10000000.0ns)
++1.980184012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.980184012s UdpEchoServerApplication:HandleRead(): At time 1.98018s server received 1024 bytes from 10.1.3.2 port 49153
++1.980184012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.980184012s UdpEchoServerApplication:HandleRead(): At time 1.98018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.980536024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.980536024s UdpEchoClientApplication:HandleRead(): At time 1.98054s client received 1024 bytes from 10.1.3.1 port 9
++1.990000000s UdpEchoClientApplication:Send(0x55938a076fc0)
++1.990000000s UdpEchoClientApplication:Send(): At time 1.99s client sent 1024 bytes to 10.1.3.1 port 9
++1.990184012s UdpEchoServerApplication:HandleRead(0x55938a085ee0, 0x55938a0702e0)
++1.990184012s UdpEchoServerApplication:HandleRead(): At time 1.99018s server received 1024 bytes from 10.1.3.2 port 49153
++1.990184012s UdpEchoServerApplication:HandleRead(): Echoing packet
++1.990184012s UdpEchoServerApplication:HandleRead(): At time 1.99018s server sent 1024 bytes to 10.1.3.2 port 49153
++1.990581024s UdpEchoClientApplication:HandleRead(0x55938a076fc0, 0x55938a06b220)
++1.990581024s UdpEchoClientApplication:HandleRead(): At time 1.99058s client received 1024 bytes from 10.1.3.1 port 9
+UdpEchoClientApplication:DoDispose(0x55938a076fc0)
+UdpEchoServerApplication:DoDispose(0x55938a085ee0)
+UdpEchoClientApplication:~UdpEchoClient(0x55938a076fc0)
+UdpEchoServerApplication:~UdpEchoServer(0x55938a085ee0)
