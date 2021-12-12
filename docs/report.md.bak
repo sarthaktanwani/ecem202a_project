@@ -117,6 +117,11 @@ GitHub: https://github.com/openai/mujoco-py
 
 [6] https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9211472; Y. Ma, C. Lu, B. Sinopoli and S. Zeng, "Exploring Edge Computing for Multitier Industrial Control," in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, vol. 39, no. 11, pp. 3506-3518, Nov. 2020, doi: 10.1109/TCAD.2020.3012648.
 
+[7] Michal Kudelski, Luca M. Gambardella, Gianni A. Di Caro, RoboNetSim: An integrated framework for multi-robot and network simulation, Robotics and Autonomous Systems, Volume 61, Issue 5, 2013, Pages 483-496, ISSN 0921-8890, https://doi.org/10.1016/j.robot.2013.01.003.
+Website: http://www.giannidicaro.com/robonetsim.html
+Link: https://www.sciencedirect.com/science/article/pii/S0921889013000080;
+
+[8] https://ieeexplore.ieee.org/document/9345354; M. Calvo-Fullana, D. Mox, A. Pyattaev, J. Fink, V. Kumar and A. Ribeiro, "ROS-NetSim: A Framework for the Integration of Robotic and Network Simulators," in IEEE Robotics and Automation Letters, vol. 6, no. 2, pp. 1120-1127, April 2021, doi: 10.1109/LRA.2021.3056347.
 
 
 Gazebo
