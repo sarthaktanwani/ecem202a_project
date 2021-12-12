@@ -1,4 +1,4 @@
-FileTransfer,GazeboRead,ReadFile,GazeboPublish,E2E latency,StepRuntime
+FileTransfer,GazeboRead,ReadFile,GazeboPublish,E2E_Latency,StepRuntime
 301.282243000,796.000,.003,899.000,1695.003,1714.000
 301.282243000,765.000,.003,907.000,1672.003,1689.000
 301.282243000,766.000,.005,914.000,1680.005,1700.000
