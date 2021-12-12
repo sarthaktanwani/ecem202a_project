@@ -28,11 +28,9 @@ We acknowledge the challenges ROS brings to this project and its learning curve.
 
 # 2. Related Work
 
-* Indoor navigation for autonomous vehicles
-* Autonomous navigation is widely studied in Gazebo simulations and the most common library is SLAM (Simultaneous Localization and Mapping). However, we find that it goes against one key motivation of our problem formulation - the robot has no knowledge of the building’s floor plan and nor does it wish to acquire it in a non-adversarial setting. For this reason, we choose to solve the navigation problem by supplying waypoints (next location coordinates) to the robot as the building’s downlink command.
-* Physics simulators
-* Network simulators
-* Wifi and BLE
+There is a large amount of prior work in Indoor navigation for autonomous vehicles. For our purposes, we needed a framework to integrate a network simulator and a physics/robotics simulators in order to analyze the performance of an autonomous robot and a building as a controller in a high network load condition. We identified Robonetsim <cite robonetsim url> (from CMU, 2013) that is a framework for seamless integration of network and multi-robot simulator and, building on the same paper, ROSNetSim <cite ROSNetSim IEEE url> (from UPenn, 2021). However, these papers either have too less support to work with state-of-the-art versions of simulators or too new to be stable and work seamlessly without issues.
+
+Moreover, Autonomous navigation is widely studied in Gazebo simulations and the most common library is SLAM (Simultaneous Localization and Mapping). However, we find that it goes against one key motivation of our problem formulation - the robot has no knowledge of the building’s floor plan and nor does it wish to acquire it in a non-adversarial setting. For this reason, we choose to solve the navigation problem by supplying waypoints (next location coordinates) to the robot as the building’s downlink command.
 
 # 3. Technical Approach
 
@@ -40,7 +38,15 @@ Hardware prototyping in the robotics domain is challenging and not a feasible im
 
 While there are many open-source robotics simulators available, we find that Gazebo <cite> has a strong physics backend, a plethora of sensors and a relatively user-friendly GUI making it our robotic simulator of choice. In our first attempt, we built a two-wheeled robot with a camera sensor from scratch <cite purdue> by following this tutorial. However, it was quickly apparent that our barebones robot was not sufficiently suited to our needs. Opting for a smarter approach, we then used <cite actual robot link> to create a newer version with camera, laser and IMU sensors. Moreover, to simulate a building’s floor plan, we designed our own model as seen in Figure X <cite image>. Our custom floor plan helped us circumvent this known bug <cite> in Gazebo <version> where adding doors to the model leads to frequent crashes of the simulator. 
 
-<Why ns3 for a network simulator, Cite communication technology (wifi, ble)> <Sarthak>  
+Among different Network Simulators, we chose to go with NS3 as:
+1. NS3 has a simple C++ implementation of networks over different nodes and supports many wireless protocols such as WiFi, BLE, LORAWAN, etc.
+2. NS3 is a command line based network simulation tool that easily integrated with our integrator script written in bash.
+3. It is open source widely used and has a lot of support from the community
+4. It was important for us to simulate only 2 nodes so NS3 was a more straightforward choice due to its simple implementation setup as opposed to other, more sophisticated, network simulators that are designed to simulate distributed networks of multiple nodes communicating using different protocols
+
+We chose WiFi and BLE to simulate our 2 scenarios because:
+1. WiFi is a widely used and understood protocol with sufficiently large packet size and sufficiently large data rate to support our application with the only exception of being high power consumption and relatively lower privacy and security features.
+2. In contrast, we also chose to simulate our two scenarios with BLE as by compromising on the low data rate and packet size slightly, we get a low power communication protocol with less overhead per packet and we get configurability in terms of better security features, with 2 security modes and 4 distinct security levels, and data encryption especially with the latest version BLEv5.0 .
 
 The gazebo simulation is used with a ROS interface and follows a subscriber/publisher model. This allows us to query the laser sensor values of the robot as well as issue a command for its navigation. 
 
