@@ -52,15 +52,7 @@ Among different network simulators, we chose to go with NS3 as:
 3. It is open source widely used and has a lot of support from the community
 4. It was important for us to simulate only 2 nodes so NS3 was a more straightforward choice due to its simple implementation setup as opposed to other, more sophisticated, network simulators that are designed to simulate distributed networks of multiple nodes communicating using different protocols
 
-<<<<<<< HEAD
-The gazebo simulation is used with a ROS interface and follows a subscriber/publisher model. This allows us to query the laser sensor values of the robot as well as issue a command for its navigation. 
-=======
-We chose WiFi and BLE to simulate our 2 scenarios because:
-1. WiFi is a widely used and understood protocol with sufficiently large packet size and sufficiently large data rate to support our application with the only exception of being high power consumption and relatively lower privacy and security features.
-2. In contrast, we also chose to simulate our two scenarios with BLE as by compromising on the low data rate and packet size slightly, we get a low power communication protocol with less overhead per packet and we get configurability in terms of better security features, with 2 security modes and 4 distinct security levels, and data encryption especially with the latest version BLEv5.0 .
-
 The gazebo simulation is used with a ROS interface and follows a subscriber/publisher model. This allows us to query the laser sensor values of the robot as well as issue a command for its navigation. To perform low-level control of the robot, we try to issue position commands for its three components - left wheel, right wheel and base, simultaneously. However, ROS only accepts a single command for an individual component at a time resulting in an unstable rendering of the robot (continuously rolling) in Gazebo. For this reason, we are limited to issuing the next position of the robot’s model as a whole.
->>>>>>> 07e4527a667c54c6bceeee81039005b0f6b51cf1
 
   ![system-design](https://user-images.githubusercontent.com/90207206/145730591-764e63ae-cee5-493e-8360-c92e80843530.JPG)
   
