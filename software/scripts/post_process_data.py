@@ -1,8 +1,8 @@
 import pandas as pd
 import os
 
-scenario_1 = "../../data/logs/wifi/scenario1"
-scenario_2 = "../../data/logs/wifi/scenario2"
+scenario_1 = "../../data/logs/ble/scenario1"
+scenario_2 = "../../data/logs/ble/scenario2"
 directory_list = [scenario_1, scenario_2]
 
 for directory in directory_list:
@@ -15,5 +15,5 @@ for directory in directory_list:
         avg_data = pd.DataFrame(columns = ['FileTransfer', 'GazeboRead', 'ReadFile', 'GazeboPublish', 'E2E_Latency'])
         for file in os.scandir(directory):
             data = pd.read_csv(file, index_col=False)
-            avg_data = avg_data.append({'FileTransfer':data['FileTransfer'].mean(), 'GazeboRead':data['GazeboRead'].mean(), 'ReadFile':data['ReadFile'].mean(), 'GazeboPublish':data['GazeboPublish'].mean(), 'E2E_Latency':data['E2E_Latency'].sum()}, ignore_index=True)
-    avg_data.to_csv('{0}'.format(directory) + '/processed.csv', index=False)
+            avg_data = avg_data.append({'FileTransfer':data['FileTransfer'].mean(), 'GazeboRead':data['GazeboRead'].mean(), 'ReadFile':data['ReadFile'].mean(), 'GazeboPublish':data['GazeboPublish'].mean(), 'E2E_Latency':data['E2E latency'].sum()}, ignore_index=True)
+    avg_data.to_csv('{0}'.format(directory) + '/ble_processed.csv', index=False)
