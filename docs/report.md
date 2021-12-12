@@ -42,46 +42,72 @@ For communication between the autonomous robot and the building controller, we i
 
 Hardware prototyping in the robotics domain is challenging and not a feasible implementation option for a class project. We therefore rely on physical and network simulation environments as a means to analyze distribution of control between the robot and the building’s network. 
 
-While there are many open-source robotics simulators available, we find that Gazebo <cite> has a strong physics backend, a plethora of sensors and a relatively user-friendly GUI making it our robotic simulator of choice. In our first attempt, we built a two-wheeled robot with a camera sensor from scratch <cite purdue> by following this tutorial. However, it was quickly apparent that our barebones robot was not sufficiently suited to our needs. Opting for a smarter approach, we then used <cite actual robot link> to create a newer version with camera, laser and IMU sensors. Moreover, to simulate a building’s floor plan, we designed our own model as seen in Figure X <cite image>. Our custom floor plan helped us circumvent this known bug <cite> in Gazebo <version> where adding doors to the model leads to frequent crashes of the simulator. 
+While there are many open-source robotics simulators available, we find that Gazebo <cite> has a strong physics backend, a plethora of sensors and a relatively user-friendly GUI making it our robotic simulator of choice. In our first attempt, we built a two-wheeled robot with a camera sensor from scratch <cite purdue> by following this tutorial. However, it was quickly apparent that our barebones robot was not sufficiently suited to our needs. Opting for a smarter approach, we then used <cite actual robot link> to create a newer version with camera, laser and IMU sensors. Moreover, to simulate a building’s floor plan, we designed our own model as seen in Figure 1. Our custom floor plan helped us circumvent this known bug <cite> in Gazebo <version> where adding doors to the model leads to frequent crashes of the simulator. 
 
-Among different Network Simulators, we chose to go with NS3 as:
+  ![gazebo-simulation](https://user-images.githubusercontent.com/90207206/145730662-f10b52da-a582-40d6-9fae-dd4afc914722.png)
+
+Among different network simulators, we chose to go with NS3 as:
 1. NS3 has a simple C++ implementation of networks over different nodes and supports many wireless protocols such as WiFi, BLE, LORAWAN, etc.
 2. NS3 is a command line based network simulation tool that easily integrated with our integrator script written in bash.
 3. It is open source widely used and has a lot of support from the community
 4. It was important for us to simulate only 2 nodes so NS3 was a more straightforward choice due to its simple implementation setup as opposed to other, more sophisticated, network simulators that are designed to simulate distributed networks of multiple nodes communicating using different protocols
 
+<<<<<<< HEAD
 The gazebo simulation is used with a ROS interface and follows a subscriber/publisher model. This allows us to query the laser sensor values of the robot as well as issue a command for its navigation. 
+=======
+We chose WiFi and BLE to simulate our 2 scenarios because:
+1. WiFi is a widely used and understood protocol with sufficiently large packet size and sufficiently large data rate to support our application with the only exception of being high power consumption and relatively lower privacy and security features.
+2. In contrast, we also chose to simulate our two scenarios with BLE as by compromising on the low data rate and packet size slightly, we get a low power communication protocol with less overhead per packet and we get configurability in terms of better security features, with 2 security modes and 4 distinct security levels, and data encryption especially with the latest version BLEv5.0 .
 
-Figure X outlines the system design for Scenario 1. In this case, the robot periodically posts its sensor values (specifically laser scan sensor’s readings) onto the ROS Subscriber. These values are retrieved by the Integrator using the rostopic command. The Integrator, as the name suggests, is a module to seamlessly integrate the two major system components i.e. the network and the physics simulator. Once it receives the required data, it promptly triggers the network simulation in NS3. We simulate a single link between a client node (in this case, the robot) and the server node (in this case, the building’s network) using one of the two communication modalities - WiFi and BLE. To demonstrate sufficient load on the network because of the low-level sensor data, we send 50 2048-byte packets (for WiFi) and 400 255-byte packets (for BLE) as uplink messages. (Please see Appendix for network load calculation). Based on these sensor readings, the server node calculates the next position of the robot and sends that to the client node as a downlink command. Since this is a fairly small payload, we simulate a single 2048-byte packet for WiFi and 8 255-byte packets for BLE. The Integrator then formulates a ROS command from the downlink message and issues it to the Publisher module. This command is picked up by Gazebo and is acted upon by moving the robot to said location. As soon as the execution is complete, new sensor readings are published on the ROS terminal and the process is repeated until the robot reaches its destination.
+The gazebo simulation is used with a ROS interface and follows a subscriber/publisher model. This allows us to query the laser sensor values of the robot as well as issue a command for its navigation. To perform low-level control of the robot, we try to issue position commands for its three components - left wheel, right wheel and base, simultaneously. However, ROS only accepts a single command for an individual component at a time resulting in an unstable rendering of the robot (continuously rolling) in Gazebo. For this reason, we are limited to issuing the next position of the robot’s model as a whole.
+>>>>>>> 07e4527a667c54c6bceeee81039005b0f6b51cf1
 
-Scenario 2 is described using the system model in Figure X. Even though it has the same system components as Scenario 1, there are two key differences. First, we model the exchange of the building’s control module (to be run locally on the robot) using a one-time NS3 simulation at the very beginning. The downlink payload of 500 2048-byte packets (for WiFi) and 500 2048-byte packets (for BLE) is used to denote the large size of the control module firmware/file. Second, while the same logic as the 1st scenario is used to compute the next position of the robot, it is run locally, in the same context as Gazebo to demonstrate local computation. 
+  ![system-design](https://user-images.githubusercontent.com/90207206/145730591-764e63ae-cee5-493e-8360-c92e80843530.JPG)
+  
+Figure 2 outlines the system design for Scenario 1. In this case, the robot periodically posts its sensor values (specifically laser scan sensor’s readings) onto the ROS Subscriber. These values are retrieved by the Integrator using the rostopic command. The Integrator, as the name suggests, is a module to seamlessly integrate the two major system components i.e. the network and the physics simulator. Once it receives the required data, it promptly triggers the network simulation in NS3. We simulate a single link between a client node (in this case, the robot) and the server node (in this case, the building’s network) using one of the two communication modalities - WiFi and BLE. To demonstrate sufficient load on the network because of the low-level sensor data, we send 50 2048-byte packets (for WiFi) and 400 255-byte packets (for BLE) as uplink messages. (Please see Appendix for network load calculation). Based on these sensor readings, the server node calculates the next position of the robot and sends that to the client node as a downlink command. Since this is a fairly small payload, we simulate a single 2048-byte packet for WiFi and 8 255-byte packets for BLE. The Integrator then formulates a ROS command from the downlink message and issues it to the Publisher module. This command is picked up by Gazebo and is acted upon by moving the robot to said location. As soon as the execution is complete, new sensor readings are published on the ROS terminal and the process is repeated until the robot reaches its destination.
+  
+![system-design-2](https://user-images.githubusercontent.com/90207206/145730605-26609b8f-54bf-46a4-957a-bf4eac607d48.JPG)
+
+Scenario 2 is described using the system model in Figure 3. Even though it has the same system components as Scenario 1, there are two key differences. First, we model the exchange of the building’s control module (to be run locally on the robot) using a one-time NS3 simulation at the very beginning. The downlink payload of 500 2048-byte packets (for WiFi) and 4000 255-byte packets (for BLE) is used to denote the large size of the control module firmware/file. Second, while the same logic as the 1st scenario is used to compute the next position of the robot, it is run locally, in the same context as Gazebo to demonstrate local computation. 
 
   
 # 4. Evaluation and Results
   
 To ensure the reliability of the system and our results, we run 10 iterations of each scenario for both communication modalities. While energy consumption and memory footprint are good performance metrics, as a first step we only consider end-to-end latency. We understand that packet losses are also a significant consequence of the network overload. However, by assuming that WiFi and BLE support internal link layer retries, we consider that no packet loss was seen in the system and any effect will be modeled into the system latency.
 
-To ensure the reliability of the system and our results, we run 10 iterations of each scenario for both communication modalities. Below are our finds:
+## WiFi as the link between the robot and the building
+  
+  ### Average time to destination
+  
+We observe that in Scenario 1 the robot takes 260 seconds on average to reach its destination while in Scenario 2 it takes 245 seconds on average. This 5% decrease can be attributed to the one-time network cost in Scenario 2 whereas the robot needs to send (significantly smaller) uplink messages every step of the way in Scenario 1.
+  
+  ![wifi-average-simulation-latency](https://user-images.githubusercontent.com/90207206/145730700-d2aaf8bd-786f-4ad5-92b6-0f269e19f33d.JPG)
+  
+Additionally, graph 1 shows the average completion time for each iteration of both the scenarios. It is interesting to note that while Scenario 1 has little to no latency variability between iterations, this is not the case for Scenario 2. We believe that this system behavior stems from Gazebo’s reaction time i.e. as the interval between two issued commands decreases, Gazebo gets slower to react/execute the command. Although this is clearly a simulation limitation, it is important to remember that system reactivity is a crucial constraint in real systems as well.
 
-* Average time to destination for both scenarios using WiFi as the link between the robot and the building
-* Average time to destination for both scenarios using BLE as the link between the robot and the building
+### Breakdown of end-to-latency
+  
+   ![wifi-latency-breakdown](https://user-images.githubusercontent.com/90207206/145730701-39cd930a-0671-4c46-8d6f-a112ea8f7a70.JPG)
+  
+Diving deeper into the split of the observed end-to-end latency, we prove our hypothesis of the key differentiating factor being the network component. Graph X demonstrates the latency breakdown for one simulation for both scenarios. As compared to Scenario 2, the network latency component is significant (albeit relatively small compared to Gazebo’s contribution).
 
 
-Scenario 1 total end-to-end latency
-Scenario 1 latency split, explain each type
-Scenario 2 total end-to-end latency
-Scenario 2 latency split, explain each type
-Add graphs comparing multiple runs of simulations
+  ## BLE as the link between the robot and the building
+  
+  ### Average time to destination
+  ### Breakdown of end-to-latency
+
+
+## Add graphs comparing multiple runs of simulations
+
   
 # 5. Discussion and Conclusions
   
-Talk about division of control in autonomous systems
-Talk about why latency is a good metric - fast-changing environment need to quickly adapt
-We observe that the second scenario gives better results in terms of latency but also has advantages in terms of privacy wrt the building
-This software can run on a hardware enclave, signed software to be protected from the robot’s operating system
-As an extension of this work, we could
-Measure other metrics - power consumption, memory footprint, multi dimensional performance
-Use a hybrid approach - some control on the network, some on the local device
+This project adopts a different perspective of distribution of control in navigation of autonomous systems. We derive our motivation from the recent work around the vulnerabilities of autonomous systems and frame our problem in the context of wireless control. Fast-changing environments such as these require an equally adaptive system which leads us to choose network and system latency as our performance metrics. 
+
+Local control of the robot i.e. Scenario 2 outperforms Scenario 1 i.e. wireless control of the robot in terms of navigation time with network latency being the key differentiating factor. Moreover, we find that control over BLE proves to be significantly slower than WiFi which is on par with what we know about both these communication technologies.
+  
+Although in Scenario 2 the building’s controller is running locally on the robot, we envision it to be separate from the robot’s controller. The control module can be sent as a signed firmware package to ensure authenticity of the image. Moreover, this software can run in a secure mode (for example, a hardware enclave) to maintain separation from the robot’s firmware.As a future direction of this work, we would like to analyze the multi-dimensional performance of the system by measuring other metrics such as power consumption and memory footprint. Additionally, it would be interesting to study the effects of network variability for a hybrid control approach where part of the control lies with the robot and part with the building.
   
 # 6. References
 Gazebo
@@ -91,20 +117,42 @@ Previous work
   
 # 7. Appendix
 
-  Calculation for network load:
+  ## Calculation for network load:
   
-* 802.11/Scenario 1: 
+While both WiFi and BLE are standardized protocols and have predefined headers and authentication mechanisms, we assume that our communication requires additional headers to ensure safe and reliable exchange of the robot's sensitive sensor data. For this reason, we calculate payload and header split based on generated sensor readings of the robot's laser scanner.
+Please note that we found WiFi simulations to be unstable when packet count was over 100 which is why we decided to split the payload into 50 packets of 2048 bytes each. Moreover, the BLE calculation is done keeping in mind that the maximum packet payload is limited to 255 bytes.
+
+  
+### 802.11/Scenario 1: 
 
     Size of /scan data published by robot = ~16500 bytes
     Size of each packet sent upstream = 2048 bytes
     Number of packets sent upstream = 50
-    Total size of uplink message = 50 * 2048 = 51200 bytes
-    Size of headers and auth mechanisms = 51200 - 16500 = 34700 bytes
-    Size of per packet header and auth = 34700/50 = 694 bytes
-    Size of per packet data payload = 1354 bytes
+    Total size of uplink message = 50 * 2048 = 102400 bytes
+    Size of headers and auth mechanisms = 102400 - 16500 = 85900 bytes
+    Size of per packet header and auth = 85900/50 = 1718 bytes
+    Size of per packet data payload = 330 bytes
+
   
-* 802.11/Scenario 2: 
+### 802.11/Scenario 2: 
     
     Assuming the size of the firmware file  = ~1 MB
     Size of each packet sent downstream = 2048 bytes
     Number of packets required to be sent downstream = 1024000/2048 = 500
+  
+ ### BLE/Scenario 1: 
+
+    Size of /scan data published by robot = ~16500 bytes
+    Size of each packet sent upstream = 255 bytes
+    Number of packets sent upstream = 400
+    Total size of uplink message = 400 * 255 = 102400 bytes
+    Size of headers and auth mechanisms = 102400 - 16500 = 85900 bytes
+    Size of per packet header and auth = 85900 /400 = 214 bytes
+    Size of per packet data payload = 41 bytes
+  
+ ### BLE/Scenario 2: 
+  
+    Assuming the size of the firmware file  = ~1 MB
+    Size of each packet sent downstream = 255 bytes
+    Number of packets required to be sent downstream = 1024000/255 = 4000
+
