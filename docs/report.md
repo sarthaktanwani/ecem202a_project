@@ -28,13 +28,11 @@ We acknowledge the challenges ROS brings to this project and its learning curve.
 
 # 2. Related Work
 
-There are lots of physics simulators that can be used such as Gazebo<cite>, pybullet<cite> and Mujoco<cite>. Autonomous navigation has been widely studied in different contexts and applications. https://ieeexplore.ieee.org/document/8279360; This paper proposes automatic robot navigation systems and aims to achieve robot navigation that is adaptive in environment crowded with many people. THis paper uses VREP and Fabot2D to simulate the surroundings. https://www.mdpi.com/2076-3417/10/9/3219?type=check_update&version=2; This is another article that where the authors propose a neuro-inspired cognitive navigation framework for robot navigation, in this case, the virtual world for the robot on each stage on the middleware is created on the Gazebo Simulator.
+There are lots of physics simulators that can be used such as Gazebo[1], pybullet[2] and Mujoco[3]. Autonomous navigation has been widely studied in different contexts and applications. [4] - This paper proposes automatic robot navigation systems and aims to achieve robot navigation that is adaptive in environment crowded with many people. This paper uses VREP and Fabot2D to simulate the surroundings. [5] - This is another article that where the authors propose a neuro-inspired cognitive navigation framework for robot navigation, in this case, the virtual world for the robot on each stage on the middleware is created on the Gazebo Simulator.
 
 Autonomous navigation is widely studied in Gazebo simulations and the most common library is SLAM (Simultaneous Localization and Mapping). However, we find that it goes against one key motivation of our problem formulation - the robot has no knowledge of the building’s floor plan and nor does it wish to acquire it in a non-adversarial setting. For this reason, we choose to solve the navigation problem by supplying waypoints (next location coordinates) to the robot as the building’s downlink command.
 
-There is a large amount of prior work in Indoor navigation for autonomous vehicles. 
-[1] Exploring Edge Computing for Multitier Industrial Control - This interesting papers leverages edge computing by switching control between local and wireless entities in the face of adverse wireless conditions.
-For our purposes, we needed a framework to integrate a network simulator and a physics/robotics simulators in order to analyze the performance of an autonomous robot and a building as a controller in a high network load condition. We identified Robonetsim <cite robonetsim url> (from CMU, 2013) that is a framework for seamless integration of network and multi-robot simulator and, building on the same paper, ROSNetSim <cite ROSNetSim IEEE url> (from UPenn, 2021). However, these papers either have too less support to work with state-of-the-art versions of simulators or too new to be stable and work seamlessly without issues.
+There is a large amount of prior work in Indoor navigation for autonomous vehicles. For e.g., [6] Exploring Edge Computing for Multitier Industrial Control - This interesting paper leverages edge computing by switching control between local and wireless entities in the face of adverse wireless conditions. For our purposes, we needed a framework to integrate a network simulator and a physics/robotics simulators in order to analyze the performance of an autonomous robot and a building as a controller in a high network load condition. We identified Robonetsim [7] (from CMU, 2013) that is a framework for seamless integration of network and multi-robot simulator and, building on the same paper, ROSNetSim [8] (from UPenn, 2021). However, these papers either have too less support to work with state-of-the-art versions of simulators or too new to be stable and work seamlessly without issues.
 
 For communication between the autonomous robot and the building controller, we identified WiFi and BLE would be a good set of wireless technologies covering a wide range of application requirements. WiFi is a widely used and understood protocol with sufficiently large packet size and sufficiently large data rate to support our application with the only exception of being high power consumption and relatively lower privacy and security features. In contrast with WiFi, we also chose to simulate our two scenarios with BLE as by compromising on the data rate and packet size slightly, we get a low power communication protocol with less overhead per packet and we get configurability in terms of better security features, with 2 security modes and 4 distinct security levels, and data encryption especially with the latest version BLEv5 .
 
@@ -102,6 +100,30 @@ Local control of the robot i.e. Scenario 2 outperforms Scenario 1 i.e. wireless 
 Although in Scenario 2 the building’s controller is running locally on the robot, we envision it to be separate from the robot’s controller. The control module can be sent as a signed firmware package to ensure authenticity of the image. Moreover, this software can run in a secure mode (for example, a hardware enclave) to maintain separation from the robot’s firmware.As a future direction of this work, we would like to analyze the multi-dimensional performance of the system by measuring other metrics such as power consumption and memory footprint. Additionally, it would be interesting to study the effects of network variability for a hybrid control approach where part of the control lies with the robot and part with the building.
   
 # 6. References
+
+[1] Link: https://ieeexplore.ieee.org/document/1389727; N. Koenig and A. Howard, "Design and use paradigms for Gazebo, an open-source multi-robot simulator," 2004 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (IEEE Cat. No.04CH37566), 2004, pp. 2149-2154 vol.3, doi: 10.1109/IROS.2004.1389727.
+Website: http://gazebosim.org/
+GitHub: https://github.com/osrf/gazebo
+
+[2]Pybullet Links: website: https://pybullet.org/wordpress/; GitHub: https://github.com/bulletphysics/bullet3
+
+[3] Link: https://ieeexplore.ieee.org/document/6386109; E. Todorov, T. Erez and Y. Tassa, "MuJoCo: A physics engine for model-based control," 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems, 2012, pp. 5026-5033, doi: 10.1109/IROS.2012.6386109.
+Website: https://mujoco.org/
+GitHub: https://github.com/openai/mujoco-py
+
+[4] https://ieeexplore.ieee.org/document/8279360; Y. Kato, K. Kamiyama and K. Morioka, "Autonomous robot navigation system with learning based on deep Q-network and topological maps," 2017 IEEE/SICE International Symposium on System Integration (SII), 2017, pp. 1040-1046, doi: 10.1109/SII.2017.8279360.
+
+[5] Joo, S.-H.; Manzoor, S.; Rocha, Y.G.; Bae, S.-H.; Lee, K.-H.; Kuc, T.-Y.; Kim, M. Autonomous Navigation Framework for Intelligent Robots Based on a Semantic Environment Modeling. Appl. Sci. 2020, 10, 3219. https://doi.org/10.3390/app10093219
+
+[6] https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9211472; Y. Ma, C. Lu, B. Sinopoli and S. Zeng, "Exploring Edge Computing for Multitier Industrial Control," in IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, vol. 39, no. 11, pp. 3506-3518, Nov. 2020, doi: 10.1109/TCAD.2020.3012648.
+
+[7] Michal Kudelski, Luca M. Gambardella, Gianni A. Di Caro, RoboNetSim: An integrated framework for multi-robot and network simulation, Robotics and Autonomous Systems, Volume 61, Issue 5, 2013, Pages 483-496, ISSN 0921-8890, https://doi.org/10.1016/j.robot.2013.01.003.
+Website: http://www.giannidicaro.com/robonetsim.html
+Link: https://www.sciencedirect.com/science/article/pii/S0921889013000080;
+
+[8] https://ieeexplore.ieee.org/document/9345354; M. Calvo-Fullana, D. Mox, A. Pyattaev, J. Fink, V. Kumar and A. Ribeiro, "ROS-NetSim: A Framework for the Integration of Robotic and Network Simulators," in IEEE Robotics and Automation Letters, vol. 6, no. 2, pp. 1120-1127, April 2021, doi: 10.1109/LRA.2021.3056347.
+
+
 Gazebo
 Ns3
 ROS

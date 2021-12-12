@@ -59,7 +59,7 @@ Step 5: Finally, we will analyze the results from each scenario. Here, we can ea
 
 The rationale behind identifying the following as key papers was to either understand the recent work in networked control systems or to identify the gaps in current systems (from which we eventually dervice our project's problem statement):
 
-[1] Exploring Edge Computing for Multitier Industrial Control - This interesting paper leverages edge computing by switching control between local and wireless entities in the face of adverse wireless conditions. 
+[1] Exploring Edge Computing for Multitier Industrial Control - This interesting papers leverages edge computing by switching control between local and wireless entities in the face of adverse wireless conditions. 
 
 [2] Control as a service (CaaS): cloud-based software architecture for automotive control applications -  This paper offers a cloud-based throttle profile controller for a vehicle as a PoC. They find that network variation indeed play a significant role in their system which they wish to explore as future work.
 
