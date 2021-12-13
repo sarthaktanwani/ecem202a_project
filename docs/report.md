@@ -128,6 +128,7 @@ Although in Scenario 2 the building’s controller is running locally on the rob
   * Integrator scripts: BLE and WiFi
   * Project report (20% contribution)
   * Project presentation (20% contribution)
+  * Project website
   
 # 7. References
 
