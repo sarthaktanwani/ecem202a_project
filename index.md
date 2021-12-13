@@ -205,4 +205,4 @@ Please note that we found WiFi simulations to be unstable when packet count was 
 
 * <a href="https://docs.google.com/presentation/d/1_8hJF1SJPSfJ9vG0C2NPKb-yZqelc5VFxi6rSpfCkzw/edit#slide=id.p"> Final Presentation </a>
 
-* <a href="https://docs.google.com/presentation/d/1_8hJF1SJPSfJ9vG0C2NPKb-yZqelc5VFxi6rSpfCkzw/edit#slide=id.p"> YouTube video </a>
+* <a href="https://www.youtube.com/watch?v=cgcVd9XCmMc"> YouTube video </a>
