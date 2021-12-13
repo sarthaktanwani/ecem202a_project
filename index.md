@@ -1,4 +1,4 @@
-# Can you tell me where to go?
+#Can you tell me where to go?
 
 # Table of Contents
 * Abstract
@@ -7,8 +7,9 @@
 * [Technical Approach](#3-technical-approach)
 * [Evaluation and Results](#4-evaluation-and-results)
 * [Discussion and Conclusions](#5-discussion-and-conclusions)
-* [References](#6-references)
-* [Appendix](#7-appendix)
+* [Individual Contribution](#6-individual-contribution)
+* [References](#7-references)
+* [Appendix](#8-appendix)
 
 # Abstract
 
@@ -34,7 +35,7 @@ There are lots of physics simulators that can be used such as Gazebo[1], pybulle
 
 Autonomous navigation is widely studied in Gazebo simulations and the most common library is SLAM (Simultaneous Localization and Mapping). However, we find that it goes against one key motivation of our problem formulation - the robot has no knowledge of the building’s floor plan and nor does it wish to acquire it in a non-adversarial setting. For this reason, we choose to solve the navigation problem by supplying waypoints (next location coordinates) to the robot as the building’s downlink command.
 
-There is a large amount of prior work in Indoor navigation for autonomous vehicles. For e.g., [6] Exploring Edge Computing for Multitier Industrial Control - This interesting paper leverages edge computing by switching control between local and wireless entities in the face of adverse wireless conditions. For our purposes, we needed a framework to integrate a network simulator and a physics/robotics simulator in order to analyze the performance of an autonomous robot and a building as a controller in a high network load condition. We identified Robonetsim [7] (from CMU, 2013) that is a framework for seamless integration of network and multi-robot simulator and, building on the same paper, ROSNetSim [8] (from UPenn, 2021). RoboNetSim combines the physics simulator ARGoS and NS3 for its application. The current available version of RoboNetSim still uses ARGoS2 and NS3.16 that were released around the same time in 2012. Hence, it still has dependacies that require the use of old and unsupported versions of ARGoS, NS3, and the underlying OS i.e. Ubuntu Linux. ROSNetSim was released very recently in April 2021 and currently has issues with installation on the latest Ubuntu versions (20.04, 18). It is under development. Hence, these papers either have too less support to work with state-of-the-art versions of simulators or too new to be stable and work seamlessly without issues.
+There is a large amount of prior work in Indoor navigation for autonomous vehicles. For e.g., [6] Exploring Edge Computing for Multitier Industrial Control - This interesting paper leverages edge computing by switching control between local and wireless entities in the face of adverse wireless conditions. For our purposes, we needed a framework to integrate a network simulator and a physics/robotics simulator in order to analyze the performance of an autonomous robot and a building as a controller in a high network load condition. We identified Robonetsim [7] (from CMU, 2013) that is a framework for seamless integration of network and multi-robot simulator and, building on the same paper, ROSNetSim [8] (from UPenn, 2021). RoboNetSim combines the physics simulator ARGoS and NS3 for its application. The current available version still uses ARGoS2 and NS3.16 that were released around the same time in 2012. Hence, it still has dependacies that require the use of old and unsupported versions of ARGoS, NS3, and the underlying OS i.e. Ubuntu Linux. ROSNetSim was released very recently in April 2021 and currently has issues with installation on the latest Ubuntu versions (20.04, 18). It is under development. Hence, these papers either have too less support to work with state-of-the-art versions of simulators or too new to be stable and work seamlessly without issues.
 
 For communication between the autonomous robot and the building controller, we identified WiFi and BLE would be a good set of wireless technologies covering a wide range of application requirements. WiFi is a widely used and understood protocol with sufficiently large packet size and sufficiently large data rate to support our application with the only exception of being high power consumption and relatively lower privacy and security features. In contrast with WiFi, we also chose to simulate our two scenarios with BLE. It is also widely used in battery powered IoT application as a primary means of communication, as opposed to WiFi, due to its low power requirement.By compromising on the data rate and packet size slightly, we get a low-power communication protocol with less overhead per packet and configurability in terms of better security features, with 2 security modes and 4 distinct security levels, and data encryption especially with the latest version BLEv5.
 
@@ -44,7 +45,7 @@ Hardware prototyping in the robotics domain is challenging and not a feasible im
 
 While there are many open-source robotics simulators available, we find that Gazebo <cite> has a strong physics backend, a plethora of sensors and a relatively user-friendly GUI making it our robotic simulator of choice. In our first attempt, we built a two-wheeled robot with a camera sensor from scratch <cite purdue> by following this tutorial. However, it was quickly apparent that our barebones robot was not sufficiently suited to our needs. Opting for a smarter approach, we then used <cite actual robot link> to create a newer version with camera, laser and IMU sensors. Moreover, to simulate a building’s floor plan, we designed our own model as seen in Figure 1. Our custom floor plan helped us circumvent this known bug <cite> in Gazebo <version> where adding doors to the model leads to frequent crashes of the simulator. 
 
-  ![gazebo-simulation](https://user-images.githubusercontent.com/90207206/145730662-f10b52da-a582-40d6-9fae-dd4afc914722.png)
+  ![gazebo-simulation](https://user-images.githubusercontent.com/90207206/145735829-5cc65e8a-c687-4ced-b862-a479fa81f174.png)
 
 Among different network simulators, we chose to go with NS3 as:
 1. NS3 has a simple C++ implementation of networks over different nodes and supports many wireless protocols such as WiFi, BLE, LORAWAN, etc.
@@ -73,7 +74,7 @@ To ensure the reliability of the system and our results, we run 10 iterations of
   
 We observe that in Scenario 1 the robot takes 260 seconds on average to reach its destination while in Scenario 2 it takes 245 seconds on average. This 5% decrease can be attributed to the one-time network cost in Scenario 2 whereas the robot needs to send (significantly smaller) uplink messages every step of the way in Scenario 1.
   
-  ![wifi-average-simulation-latency](https://user-images.githubusercontent.com/90207206/145730700-d2aaf8bd-786f-4ad5-92b6-0f269e19f33d.JPG)
+  ![wifi-average-simulation-latency](https://user-images.githubusercontent.com/90207206/145735841-9fbffe98-dc81-4ccd-b98c-8d40d5844b55.JPG)
   
 Additionally, graph 1 shows the average completion time for each iteration of both the scenarios. It is interesting to note that while Scenario 1 has little to no latency variability between iterations, this is not the case for Scenario 2. We believe that this system behavior stems from Gazebo’s reaction time i.e. as the interval between two issued commands decreases, Gazebo gets slower to react/execute the command. Although this is clearly a simulation limitation, it is important to remember that system reactivity is a crucial constraint in real systems as well.
 
@@ -81,16 +82,30 @@ Additionally, graph 1 shows the average completion time for each iteration of bo
   
    ![wifi-latency-breakdown](https://user-images.githubusercontent.com/90207206/145730701-39cd930a-0671-4c46-8d6f-a112ea8f7a70.JPG)
   
-Diving deeper into the split of the observed end-to-end latency, we prove our hypothesis of the key differentiating factor being the network component. Graph X demonstrates the latency breakdown for one simulation for both scenarios. As compared to Scenario 2, the network latency component is significant (albeit relatively small compared to Gazebo’s contribution).
+Diving deeper into the split of the observed end-to-end latency, we prove our hypothesis of the key differentiating factor being the network component. Graph 2 demonstrates the latency breakdown for one simulation for both scenarios. As compared to Scenario 2, the network latency component is significant (albeit relatively small compared to Gazebo’s contribution).
 
 
   ## BLE as the link between the robot and the building
   
   ### Average time to destination
+  
+  We observe that in Scenario 1 the robot takes 470 seconds on average to reach its destination while in Scenario 2 it takes 280 seconds on average. Similar to WiFi, this 40% reduction can be accounted by the one-time network latency.
+  
+  ![ble-average-simulation-latency](https://user-images.githubusercontent.com/90207206/145736239-4808cfb0-591a-404b-b1c9-43c9a6f27510.png)
+
+  Graph 3 shows the average completion time for each iteration of both the scenarios. Our rationale for latency variability of Scenario 2 remains the same as for WiFi. In contrast to WiFi simulations, however, there a much larger gap between the latency values of the two scenarios. We believe that this is the results of BLE itself, since we are limited to sending only 255-byte packets for the same amount of payload which is a considerable drop from 2048-byte packets in WiFi simulations.
+  
   ### Breakdown of end-to-latency
+  
+  ![ble-latency-breakdown](https://user-images.githubusercontent.com/90207206/145736404-37f1f2d8-7bba-4a6b-bde4-3a68cc6d5ceb.png)
 
+  From graph 4, we notice that network latency takes up a significant portion (almost 40%) of the the end-to-end latency in Scenario 1. This is much larger than the 5% network contribution in Scenario 2.
 
-## Add graphs comparing multiple runs of simulations
+## Comparing WiFi and BLE
+  
+  ![wifi-vs-ble](https://user-images.githubusercontent.com/90207206/145736586-d1f63db5-da67-4522-99a4-7e6ace8e912a.JPG)
+
+  From the above graphs, it is evident that WiFi is a faster communication modality than BLE which aligns with our understanding of the two technologies. Interestingly, while WiFi is almost 50% faster than BLE for Scenario 1, the latency difference is not nearly as significant for Scenario 2. This is because the network overhead of sending sensor data in each step quickly adds up which is not the case for one-time transfer of building's control module. Additionally, the number of packets exchanged for BLE is 4x WiFi's because of the payload restriction.
 
   
 # 5. Discussion and Conclusions
@@ -101,7 +116,23 @@ Local control of the robot i.e. Scenario 2 outperforms Scenario 1 i.e. wireless 
   
 Although in Scenario 2 the building’s controller is running locally on the robot, we envision it to be separate from the robot’s controller. The control module can be sent as a signed firmware package to ensure authenticity of the image. Moreover, this software can run in a secure mode (for example, a hardware enclave) to maintain separation from the robot’s firmware.As a future direction of this work, we would like to analyze the multi-dimensional performance of the system by measuring other metrics such as power consumption and memory footprint. Additionally, it would be interesting to study the effects of network variability for a hybrid control approach where part of the control lies with the robot and part with the building.
   
-# 6. References
+# 6. Individual Contribution
+  
+  ### Pragya
+  * Gazebo simulation, robot, floorplan
+  * Data processing scipts
+  * Data processing, graphs, inferences
+  * Project report (80% contribution)
+  * Project presentation (80% contribution)
+  
+  ### Sarthak
+  * ns3 simulation: BLE and WiFi
+  * Integrator scripts: BLE and WiFi
+  * Project report (20% contribution)
+  * Project presentation (20% contribution)
+  * Project website
+  
+# 7. References
 
 [1] Link: https://ieeexplore.ieee.org/document/1389727; N. Koenig and A. Howard, "Design and use paradigms for Gazebo, an open-source multi-robot simulator," 2004 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (IEEE Cat. No.04CH37566), 2004, pp. 2149-2154 vol.3, doi: 10.1109/IROS.2004.1389727.
 Website: http://gazebosim.org/
@@ -125,13 +156,8 @@ Link: https://www.sciencedirect.com/science/article/pii/S0921889013000080;
 
 [8] https://ieeexplore.ieee.org/document/9345354; M. Calvo-Fullana, D. Mox, A. Pyattaev, J. Fink, V. Kumar and A. Ribeiro, "ROS-NetSim: A Framework for the Integration of Robotic and Network Simulators," in IEEE Robotics and Automation Letters, vol. 6, no. 2, pp. 1120-1127, April 2021, doi: 10.1109/LRA.2021.3056347.
 
-
-Gazebo
-Ns3
-ROS
-Previous work
   
-# 7. Appendix
+# 8. Appendix
 
   ## Calculation for network load:
   
