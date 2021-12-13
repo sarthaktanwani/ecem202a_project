@@ -14,6 +14,24 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
+/*
+Using BLE module for NS3 from this paper:
+@inproceedings{mishra:hal-03217312,
+TITLE = {{SimBle: Comment g{'e}n{'e}rer des traces r{'e}elles Bluetooth conformes aux recommandations de pr{'e}servation de la vie priv{'e}e ?}},
+AUTHOR = {Mishra, Abhishek K and Viana, Aline C and Achir, Nadjib},
+URL = {https://hal.archives-ouvertes.fr/hal-03217312},
+BOOKTITLE = {{ALGOTEL 2021 - 23{`e}mes Rencontres Francophones sur les Aspects Algorithmiques des T{'e}l{'e}communications}},
+ADDRESS = {La Rochelle, France},
+YEAR = {2021},
+MONTH = Jun,
+KEYWORDS = {Bluetooth ; randomisation d'adresses MAC ; NS-3 ; pr{'e}servation de la vie priv{'e}e},
+PDF = {https://hal.archives-ouvertes.fr/hal-03217312/file/SimBle__Comment_g_n_rer_des_traces_r_elles_Bluetooth_conformes_aux_recommandations_de_pr_servation_de_la_vie_priv_e__.pdf},
+HAL_ID = {hal-03217312},
+HAL_VERSION = {v1},
+GitLab URL: https://gitlab.inria.fr/mabhishe/simble/-/tree/master/
+}
+*/
+
 #include "ns3/core-module.h"
 
 using namespace ns3;
