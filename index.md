@@ -1,6 +1,4 @@
-# Can you tell me where to go?
-
-# Project Name
+# Table of Contents
 * Abstract
 * [Introduction](#1-introduction)
 * [Related Work](#2-related-work)
