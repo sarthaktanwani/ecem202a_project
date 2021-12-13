@@ -66,7 +66,7 @@ To ensure the reliability of the system and our results, we run 10 iterations of
 
 ## WiFi as the link between the robot and the building
   
-  ### Average time to destination
+### Average time to destination
   
 We observe that in Scenario 1 the robot takes 260 seconds on average to reach its destination while in Scenario 2 it takes 245 seconds on average. This 5% decrease can be attributed to the one-time network cost in Scenario 2 whereas the robot needs to send (significantly smaller) uplink messages every step of the way in Scenario 1.
   
@@ -80,10 +80,9 @@ Additionally, graph 1 shows the average completion time for each iteration of bo
   
 Diving deeper into the split of the observed end-to-end latency, we prove our hypothesis of the key differentiating factor being the network component. Graph 2 demonstrates the latency breakdown for one simulation for both scenarios. As compared to Scenario 2, the network latency component is significant (albeit relatively small compared to Gazebo’s contribution) for Scenario 1.
 
-
-  ## BLE as the link between the robot and the building
+## BLE as the link between the robot and the building
   
-  ### Average time to destination
+### Average time to destination
   
   We observe that in Scenario 1 the robot takes 470 seconds on average to reach its destination while in Scenario 2 it takes 280 seconds on average. Similar to WiFi, this 40% reduction can be accounted by the one-time network latency.
   
@@ -91,7 +90,7 @@ Diving deeper into the split of the observed end-to-end latency, we prove our hy
 
   Graph 3 shows the average completion time for each iteration of both the scenarios. Our rationale for latency variability of Scenario 2 remains the same as for WiFi. In contrast to WiFi simulations, however, there a much larger gap between the latency values of the two scenarios. We believe that this is the result of BLE itself, since we are limited to sending only 255-byte packets for the same amount of payload which is a considerable drop from 2048-byte packets in WiFi simulations.
   
-  ### Breakdown of end-to-latency
+### Breakdown of end-to-latency
   
   ![ble-latency-breakdown](https://user-images.githubusercontent.com/90207206/145736404-37f1f2d8-7bba-4a6b-bde4-3a68cc6d5ceb.png)
 
@@ -114,14 +113,14 @@ Although in Scenario 2 the building’s controller is running locally on the rob
   
 # 6. Individual Contribution
   
-  ### Pragya
+### Pragya
   * Gazebo simulation, robot, floorplan
   * Data processing scipts
   * Data processing, graphs, inferences
   * Project report (80% contribution)
   * Project presentation (80% contribution)
   
-  ### Sarthak
+### Sarthak
   * ns3 simulation: BLE and WiFi
   * Integrator scripts: BLE and WiFi
   * Project report (20% contribution)
@@ -161,7 +160,7 @@ Link: https://www.sciencedirect.com/science/article/pii/S0921889013000080;
   
 # 8. Appendix
 
-  ## Calculation for network load:
+## Calculation for network load:
   
 While both WiFi and BLE are standardized protocols and have predefined headers and authentication mechanisms, we assume that our communication requires additional headers to ensure safe and reliable exchange of the robot's sensitive sensor data. For this reason, we calculate payload and header split based on generated sensor readings of the robot's laser scanner.
 Please note that we found WiFi simulations to be unstable when packet count was over 100 which is why we decided to split the payload into 50 packets of 2048 bytes each. Moreover, the BLE calculation is done keeping in mind that the maximum packet payload is limited to 255 bytes.
@@ -184,7 +183,7 @@ Please note that we found WiFi simulations to be unstable when packet count was 
     Size of each packet sent downstream = 2048 bytes
     Number of packets required to be sent downstream = 1024000/2048 = 500
   
- ### BLE/Scenario 1: 
+### BLE/Scenario 1: 
 
     Size of /scan data published by robot = ~16500 bytes
     Size of each packet sent upstream = 255 bytes
@@ -194,7 +193,7 @@ Please note that we found WiFi simulations to be unstable when packet count was 
     Size of per packet header and auth = 85900 /400 = 214 bytes
     Size of per packet data payload = 41 bytes
   
- ### BLE/Scenario 2: 
+### BLE/Scenario 2: 
   
     Assuming the size of the firmware file  = ~1 MB
     Size of each packet sent downstream = 255 bytes
