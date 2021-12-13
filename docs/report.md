@@ -80,7 +80,7 @@ Additionally, graph 1 shows the average completion time for each iteration of bo
   
    ![wifi-latency-breakdown](https://user-images.githubusercontent.com/90207206/145730701-39cd930a-0671-4c46-8d6f-a112ea8f7a70.JPG)
   
-Diving deeper into the split of the observed end-to-end latency, we prove our hypothesis of the key differentiating factor being the network component. Graph 2 demonstrates the latency breakdown for one simulation for both scenarios. As compared to Scenario 2, the network latency component is significant (albeit relatively small compared to Gazebo’s contribution).
+Diving deeper into the split of the observed end-to-end latency, we prove our hypothesis of the key differentiating factor being the network component. Graph 2 demonstrates the latency breakdown for one simulation for both scenarios. As compared to Scenario 2, the network latency component is significant (albeit relatively small compared to Gazebo’s contribution) for Scenario 1.
 
 
   ## BLE as the link between the robot and the building
@@ -91,13 +91,13 @@ Diving deeper into the split of the observed end-to-end latency, we prove our hy
   
   ![ble-average-simulation-latency](https://user-images.githubusercontent.com/90207206/145736239-4808cfb0-591a-404b-b1c9-43c9a6f27510.png)
 
-  Graph 3 shows the average completion time for each iteration of both the scenarios. Our rationale for latency variability of Scenario 2 remains the same as for WiFi. In contrast to WiFi simulations, however, there a much larger gap between the latency values of the two scenarios. We believe that this is the results of BLE itself, since we are limited to sending only 255-byte packets for the same amount of payload which is a considerable drop from 2048-byte packets in WiFi simulations.
+  Graph 3 shows the average completion time for each iteration of both the scenarios. Our rationale for latency variability of Scenario 2 remains the same as for WiFi. In contrast to WiFi simulations, however, there a much larger gap between the latency values of the two scenarios. We believe that this is the result of BLE itself, since we are limited to sending only 255-byte packets for the same amount of payload which is a considerable drop from 2048-byte packets in WiFi simulations.
   
   ### Breakdown of end-to-latency
   
   ![ble-latency-breakdown](https://user-images.githubusercontent.com/90207206/145736404-37f1f2d8-7bba-4a6b-bde4-3a68cc6d5ceb.png)
 
-  From graph 4, we notice that network latency takes up a significant portion (almost 40%) of the the end-to-end latency in Scenario 1. This is much larger than the 5% network contribution in Scenario 2.
+  From graph 4, we notice that network latency takes up a significant portion (almost 40%) of the end-to-end latency in Scenario 1. This is much larger than the 5% network contribution in Scenario 2.
 
 ## Comparing WiFi and BLE
   
