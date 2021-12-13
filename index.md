@@ -182,7 +182,7 @@ Please note that we found WiFi simulations to be unstable when packet count was 
     Size of each packet sent downstream = 2048 bytes
     Number of packets required to be sent downstream = 1024000/2048 = 500
   
- ### BLE/Scenario 1: 
+### BLE/Scenario 1: 
 
     Size of /scan data published by robot = ~16500 bytes
     Size of each packet sent upstream = 255 bytes
@@ -192,7 +192,7 @@ Please note that we found WiFi simulations to be unstable when packet count was 
     Size of per packet header and auth = 85900 /400 = 214 bytes
     Size of per packet data payload = 41 bytes
   
- ### BLE/Scenario 2: 
+### BLE/Scenario 2: 
   
     Assuming the size of the firmware file  = ~1 MB
     Size of each packet sent downstream = 255 bytes
