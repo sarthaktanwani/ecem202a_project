@@ -39,7 +39,7 @@ For communication between the autonomous robot and the building controller, we i
 
 Hardware prototyping in the robotics domain is challenging and not a feasible implementation option for a class project. We therefore rely on physical and network simulation environments as a means to analyze distribution of control between the robot and the building’s network. 
 
-While there are many open-source robotics simulators available, we find that Gazebo <cite> has a strong physics backend, a plethora of sensors and a relatively user-friendly GUI making it our robotic simulator of choice. In our first attempt, we built a two-wheeled robot with a camera sensor from scratch <cite purdue> by following this tutorial. However, it was quickly apparent that our barebones robot was not sufficiently suited to our needs. Opting for a smarter approach, we then used <cite actual robot link> to create a newer version with camera, laser and IMU sensors. Moreover, to simulate a building’s floor plan, we designed our own model as seen in Figure 1. Our custom floor plan helped us circumvent this known bug <cite> in Gazebo <version> where adding doors to the model leads to frequent crashes of the simulator. 
+While there are many open-source robotics simulators available, we find that Gazebo [1] has a strong physics backend, a plethora of sensors and a relatively user-friendly GUI making it our robotic simulator of choice. In our first attempt, we built a two-wheeled robot with a camera sensor from scratch [9] by following this tutorial. However, it was quickly apparent that our barebones robot was not sufficiently suited to our needs. Opting for a smarter approach, we then used [10] to create a newer version with camera, laser and IMU sensors. Moreover, to simulate a building’s floor plan, we designed our own model as seen in Figure 1. Our custom floor plan helped us circumvent this known bug [11] in Gazebo where adding doors to the model leads to frequent crashes of the simulator. 
 
   ![gazebo-simulation](https://user-images.githubusercontent.com/90207206/145735829-5cc65e8a-c687-4ced-b862-a479fa81f174.png)
 
@@ -78,7 +78,7 @@ Additionally, graph 1 shows the average completion time for each iteration of bo
   
    ![wifi-latency-breakdown](https://user-images.githubusercontent.com/90207206/145730701-39cd930a-0671-4c46-8d6f-a112ea8f7a70.JPG)
   
-Diving deeper into the split of the observed end-to-end latency, we prove our hypothesis of the key differentiating factor being the network component. Graph 2 demonstrates the latency breakdown for one simulation for both scenarios. As compared to Scenario 2, the network latency component is significant (albeit relatively small compared to Gazebo’s contribution).
+Diving deeper into the split of the observed end-to-end latency, we prove our hypothesis of the key differentiating factor being the network component. Graph 2 demonstrates the latency breakdown for one simulation for both scenarios. As compared to Scenario 2, the network latency component is significant (albeit relatively small compared to Gazebo’s contribution) for Scenario 1.
 
 
   ## BLE as the link between the robot and the building
@@ -89,13 +89,13 @@ Diving deeper into the split of the observed end-to-end latency, we prove our hy
   
   ![ble-average-simulation-latency](https://user-images.githubusercontent.com/90207206/145736239-4808cfb0-591a-404b-b1c9-43c9a6f27510.png)
 
-  Graph 3 shows the average completion time for each iteration of both the scenarios. Our rationale for latency variability of Scenario 2 remains the same as for WiFi. In contrast to WiFi simulations, however, there a much larger gap between the latency values of the two scenarios. We believe that this is the results of BLE itself, since we are limited to sending only 255-byte packets for the same amount of payload which is a considerable drop from 2048-byte packets in WiFi simulations.
+  Graph 3 shows the average completion time for each iteration of both the scenarios. Our rationale for latency variability of Scenario 2 remains the same as for WiFi. In contrast to WiFi simulations, however, there a much larger gap between the latency values of the two scenarios. We believe that this is the result of BLE itself, since we are limited to sending only 255-byte packets for the same amount of payload which is a considerable drop from 2048-byte packets in WiFi simulations.
   
   ### Breakdown of end-to-latency
   
   ![ble-latency-breakdown](https://user-images.githubusercontent.com/90207206/145736404-37f1f2d8-7bba-4a6b-bde4-3a68cc6d5ceb.png)
 
-  From graph 4, we notice that network latency takes up a significant portion (almost 40%) of the the end-to-end latency in Scenario 1. This is much larger than the 5% network contribution in Scenario 2.
+  From graph 4, we notice that network latency takes up a significant portion (almost 40%) of the end-to-end latency in Scenario 1. This is much larger than the 5% network contribution in Scenario 2.
 
 ## Comparing WiFi and BLE
   
@@ -151,6 +151,12 @@ Website: http://www.giannidicaro.com/robonetsim.html
 Link: https://www.sciencedirect.com/science/article/pii/S0921889013000080;
 
 [8] https://ieeexplore.ieee.org/document/9345354; M. Calvo-Fullana, D. Mox, A. Pyattaev, J. Fink, V. Kumar and A. Ribeiro, "ROS-NetSim: A Framework for the Integration of Robotic and Network Simulators," in IEEE Robotics and Automation Letters, vol. 6, no. 2, pp. 1120-1127, April 2021, doi: 10.1109/LRA.2021.3056347.
+  
+[9] Purdue SMART Lab ROS-Gazebo simulation: https://github.com/SMARTlab-Purdue/ros-tutorial-gazebo-simulation
+  
+[10] Autonomous robot navigation in Gazebo: https://github.com/NRottmann/ROS_Gazebo_Tutorial
+
+[11] Gazebo building editor crashes on adding doors to model: https://github.com/osrf/gazebo/issues/2276
 
   
 # 8. Appendix
@@ -178,7 +184,7 @@ Please note that we found WiFi simulations to be unstable when packet count was 
     Size of each packet sent downstream = 2048 bytes
     Number of packets required to be sent downstream = 1024000/2048 = 500
   
-### BLE/Scenario 1: 
+ ### BLE/Scenario 1: 
 
     Size of /scan data published by robot = ~16500 bytes
     Size of each packet sent upstream = 255 bytes
@@ -188,9 +194,8 @@ Please note that we found WiFi simulations to be unstable when packet count was 
     Size of per packet header and auth = 85900 /400 = 214 bytes
     Size of per packet data payload = 41 bytes
   
-### BLE/Scenario 2: 
+ ### BLE/Scenario 2: 
   
     Assuming the size of the firmware file  = ~1 MB
     Size of each packet sent downstream = 255 bytes
     Number of packets required to be sent downstream = 1024000/255 = 4000
-
