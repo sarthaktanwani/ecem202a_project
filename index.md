@@ -198,3 +198,8 @@ Please note that we found WiFi simulations to be unstable when packet count was 
     Assuming the size of the firmware file  = ~1 MB
     Size of each packet sent downstream = 255 bytes
     Number of packets required to be sent downstream = 1024000/255 = 4000
+    
+## Other Artifacts
+
+Presentation: https://docs.google.com/presentation/d/1_8hJF1SJPSfJ9vG0C2NPKb-yZqelc5VFxi6rSpfCkzw/edit#slide=id.p 
+Youtube video: 
