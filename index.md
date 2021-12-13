@@ -201,5 +201,8 @@ Please note that we found WiFi simulations to be unstable when packet count was 
     
 ## Other Artifacts
 
-Presentation: https://docs.google.com/presentation/d/1_8hJF1SJPSfJ9vG0C2NPKb-yZqelc5VFxi6rSpfCkzw/edit#slide=id.p 
-Youtube video: 
+* * <a href="https://docs.google.com/presentation/d/1jnGfh4fwQ7gAPtEnQNf_X4iVjTNNGSYGE1crwTTM4SQ/edit#slide=id.p"> Checkpoint Presentation </a>
+
+* <a href="https://docs.google.com/presentation/d/1_8hJF1SJPSfJ9vG0C2NPKb-yZqelc5VFxi6rSpfCkzw/edit#slide=id.p"> Final Presentation </a>
+
+* <a href="https://docs.google.com/presentation/d/1_8hJF1SJPSfJ9vG0C2NPKb-yZqelc5VFxi6rSpfCkzw/edit#slide=id.p"> YouTube video </a>
