@@ -1,6 +1,9 @@
+_**Can you tell me where to go? - Distribution of low-level control in the face of wireless network dynamics**_
+
+Traditionally Wireless Networked Control Systems (WNCSs), such as those in industrial settings, perform high-level control over the wireless network. Often the data exchanged between the device and the controller does not overload the network. This has led to past work in this area to be either focused on refining high-level control algorithms or have over-simplified the role of network dynamics. In this project, by taking an example of an autonomous robot and a building as a controller, we aim to study the distribution of low-level control between these two entities. The nested objective of this problem is to allow the building’s controller to take over the control of the robot to navigate it to its destination, thereby maintaining the privacy of the building’s infrastructure. We simulate two scenarios - one where the control resides remotely in the building, and second where the building’s control algorithm is running locally on the robot. We design an autonomous robot in Gazebo and control it via a ROS interface while the building's network is simulated using ns3. Using two communication modalities (WiFi and BLE) for the ns3 simulation, we show that the second scenario outperforms the first one for both cases with significantly lower end-to-end latency thereby concluding that the system benefits greatly from a local control algorithm. 
+
 
 # Table of Contents
-* Abstract
 * [Introduction](#1-introduction)
 * [Related Work](#2-related-work)
 * [Technical Approach](#3-technical-approach)
@@ -9,12 +12,6 @@
 * [Individual Contribution](#6-individual-contribution)
 * [References](#7-references)
 * [Appendix](#8-appendix)
-
-# Abstract
-
-Can you tell me where to go? - Distribution of low-level control in the face of wireless network dynamics
-
-Traditionally Wireless Networked Control Systems (WNCSs), such as those in industrial settings, perform high-level control over the wireless network. Often the data exchanged between the device and the controller does not overload the network. This has led to past work in this area to be either focused on refining high-level control algorithms or have over-simplified the role of network dynamics. In this project, by taking an example of an autonomous robot and a building as a controller, we aim to study the distribution of low-level control between these two entities. The nested objective of this problem is to allow the building’s controller to take over the control of the robot to navigate it to its destination, thereby maintaining the privacy of the building’s infrastructure. We simulate two scenarios - one where the control resides remotely in the building, and second where the building’s control algorithm is running locally on the robot. We design an autonomous robot in Gazebo and control it via a ROS interface while the building's network is simulated using ns3. Using two communication modalities (WiFi and BLE) for the ns3 simulation, we show that the second scenario outperforms the first one for both cases with significantly lower end-to-end latency thereby concluding that the system benefits greatly from a local control algorithm. 
 
 # 1. Introduction
 
