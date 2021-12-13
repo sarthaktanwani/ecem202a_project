@@ -41,7 +41,7 @@ For communication between the autonomous robot and the building controller, we i
 
 Hardware prototyping in the robotics domain is challenging and not a feasible implementation option for a class project. We therefore rely on physical and network simulation environments as a means to analyze distribution of control between the robot and the building’s network. 
 
-While there are many open-source robotics simulators available, we find that Gazebo <cite> has a strong physics backend, a plethora of sensors and a relatively user-friendly GUI making it our robotic simulator of choice. In our first attempt, we built a two-wheeled robot with a camera sensor from scratch <cite purdue> by following this tutorial. However, it was quickly apparent that our barebones robot was not sufficiently suited to our needs. Opting for a smarter approach, we then used <cite actual robot link> to create a newer version with camera, laser and IMU sensors. Moreover, to simulate a building’s floor plan, we designed our own model as seen in Figure 1. Our custom floor plan helped us circumvent this known bug <cite> in Gazebo <version> where adding doors to the model leads to frequent crashes of the simulator. 
+While there are many open-source robotics simulators available, we find that Gazebo [1] has a strong physics backend, a plethora of sensors and a relatively user-friendly GUI making it our robotic simulator of choice. In our first attempt, we built a two-wheeled robot with a camera sensor from scratch [9] by following this tutorial. However, it was quickly apparent that our barebones robot was not sufficiently suited to our needs. Opting for a smarter approach, we then used [10] to create a newer version with camera, laser and IMU sensors. Moreover, to simulate a building’s floor plan, we designed our own model as seen in Figure 1. Our custom floor plan helped us circumvent this known bug [11] in Gazebo where adding doors to the model leads to frequent crashes of the simulator. 
 
   ![gazebo-simulation](https://user-images.githubusercontent.com/90207206/145735829-5cc65e8a-c687-4ced-b862-a479fa81f174.png)
 
@@ -153,6 +153,12 @@ Website: http://www.giannidicaro.com/robonetsim.html
 Link: https://www.sciencedirect.com/science/article/pii/S0921889013000080;
 
 [8] https://ieeexplore.ieee.org/document/9345354; M. Calvo-Fullana, D. Mox, A. Pyattaev, J. Fink, V. Kumar and A. Ribeiro, "ROS-NetSim: A Framework for the Integration of Robotic and Network Simulators," in IEEE Robotics and Automation Letters, vol. 6, no. 2, pp. 1120-1127, April 2021, doi: 10.1109/LRA.2021.3056347.
+  
+[9] Purdue SMART Lab ROS-Gazebo simulation: https://github.com/SMARTlab-Purdue/ros-tutorial-gazebo-simulation
+  
+[10] Autonomous robot navigation in Gazebo: https://github.com/NRottmann/ROS_Gazebo_Tutorial
+
+[11] Gazebo building editor crashes on adding doors to model: https://github.com/osrf/gazebo/issues/2276
 
   
 # 8. Appendix
