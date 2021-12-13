@@ -1,1 +1,1 @@
-Add your project's data to this folder.
+Logs from all simulations are found in the logs folder
